@@ -1,7 +1,8 @@
 ##philadelphia walkability calculator# #
 
 
-##imports: sys for crashing, pandas is reading excelfiles, osmnx and networkx are for working with the street network (networkx is creation and manipulating complex networks whatever that means), pyproj is for coordinate transformations (web mercator to longitude and latitude) ##
+## imports: sys for crashing, pandas reads excel, osmnx + networkx for the street  ##
+## network, pyproj for coordinate transforms (web mercator <-> lon/lat) $$
 import sys
 import pandas as pd
 import osmnx as ox
@@ -25,8 +26,8 @@ meters_per_mile = 1609.34
 max_walking_meters = max_miles * meters_per_mile
 
 
-##converting coordinates from web mercator to longitude and latitude this was so hard to do im going to kill myself##
-to_lonlat = Transformer.from_crs("EPSG:3857", "EPSG:4326", always_xy=True) ##WAHT THE FUCKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK##
+##converting coordinates from web mercator to longitude and latitude ##
+to_lonlat = Transformer.from_crs("EPSG:3857", "EPSG:4326", always_xy=True) 
  
 def convert(x, y):
     try:
@@ -43,32 +44,26 @@ def load_sheet(sheet_name, xcol="X", ycol="Y"):
     lonlat.columns = ["lon", "lat"]
     df = pd.concat([df, lonlat], axis=1)
  
-    # Edge case: drop rows where coordinate conversion failed (NaN lon/lat)
+    # drop rows where conversion failed
     bad = df["lon"].isna() | df["lat"].isna()
     if bad.sum() > 0:
-        print(f"  Error: dropped {bad.sum()} rows from '{sheet_name}' with invalid coordinates")
-    df = df[~bad].copy()
+        print(f"  Note: dropped {bad.sum()} rows from '{sheet_name.strip()}' with invalid coordinates")
+        df = df[~bad].copy()
  
-    # Edge case: sanity check that converted coords are actually in Philadelphia's area
-    # Philadelphia is roughly lon -75.3 to -74.9, lat 39.85 to 40.15
-    out_of_bounds = ~(
+    # drop rows outside Philadelphia's rough bounds (instead of just warning)
+    in_bounds = (
         df["lon"].between(-75.35, -74.85) &
         df["lat"].between(39.80, 40.20)
     )
-    if out_of_bounds.sum() > 0:
-        print(f"  Error: {out_of_bounds.sum()} rows in '{sheet_name}' have coordinates outside Philadelphia bounds")
+    if (~in_bounds).sum() > 0:
+        print(f"  Note: dropped {(~in_bounds).sum()} rows from '{sheet_name.strip()}' outside Philadelphia bounds")
+    df = df[in_bounds].copy()
  
     return df
 
 ##load data from excel sheets and convert coordinates##
 
 print("Loading data from Excel workbook")
- 
-# Edge case: check the file exists before trying to load it
-import os
-if not os.path.exists(EXCEL_FILE):
-    print(f"Error: could not find '{EXCEL_FILE}'")
-    sys.exit(1) 
 
 housing  = load_sheet(HOUSING)    
 gardens  = load_sheet(GARDENS)   
@@ -79,19 +74,19 @@ markets  = load_sheet(MARKETS)
 
 meals = pd.read_excel(EXCEL_FILE, sheet_name=MEAL)
 meals = meals.dropna(subset=["x", "y"])
-meals = meals.rename(columns={"x": "lat", "y": "lon"})   # fix the swap
+meals = meals.rename(columns={"x": "lat", "y": "lon"})
 meals = meals[
-    meals["lon"].between(-180, 180) &    ##error handling for coordinates that are out of bounds##
-    meals["lat"].between(-90, 90)        
+    meals["lon"].between(-75.35, -74.85) &
+    meals["lat"].between(39.80, 40.20)
 ].copy()
  
 print(f"  Affordable housing projects : {len(housing)}")
 print(f"  Meal sites (with coords)    : {len(meals)}")
 print(f"  Community gardens           : {len(gardens)}")
-print(f"  Farmers markets             : {len(markets)}") ##for some reason this would not work without f strings lol but whatever##
+print(f"  Farmers markets             : {len(markets)}")
 
 
-## now download street network will take a long time to load but hopefully will cache after first initial run oop##
+## now download street network will take a long time to load but hopefully will cache after first initial run ##
 print("\nDownloading Philadelphia pedestrian street network from OpenStreetMap")
  
 G = ox.graph_from_place(
@@ -115,7 +110,7 @@ def score(walk_meters):
     return 0.0                     ##>30 min walk##
  
  
-def label(total): ##assigns a label based on the total score, this is also subject to change based on everything else and everyone's thoughts like honestly im just making this shit up as i go lol##
+def label(total): ##assigns a label based on the total score##
     if total >= 7.0: return "Excellent"
     if total >= 5.0: return "Good"
     if total >= 3.0: return "Fair"
@@ -124,7 +119,7 @@ def label(total): ##assigns a label based on the total score, this is also subje
  
 print("\nSnapping all points to the street network") 
 
-##i didn't think this was necessary but claude did so whatever it's just error handling i guess but basically this is using dots as stand ins for addresses that may not be at an intersection, the dot is now used in the routing, when every point is snapped in it's going to be easier to calculate and the difference is really just a few meters so pretty negligible##
+##basically this is using dots as stand ins for addresses that may not be at an intersection, the dot is now used in the routing, when every point is snapped in it's going to be easier to calculate and the difference is really just a few meters so pretty negligible##
  
 def snap(lon, lat):
     # Returns the ID of the nearest street intersection to this point
@@ -145,94 +140,133 @@ print("  Done.")
 
 ##now we're getting to the good part we now calculate the nearest amenity for each housing project and assign points based on the distance##
 
-def nearest_amenity(housing_node, amenity_nodes):
-    best_meters = float("inf") ##this is a placeholder for best distance SO FAR inf is inifinity so the first amenity we check will always be better, as the for loop goes on and on it'll check each amenity and if it's better it'll be replaced as the new best distance, if it's not better it'll just be ignored and the loop will keep going until it checks all amenities##
-    best_name   = "" ##this is just setting up a variable to hold the name, it's an empty string rn but it'll be updated if we find a closer amenity##
+def nearest_amenity(dist_map, amenity_nodes):
+    best_meters = float("inf")
+    best_name = ""
  
-    for amenity_node, name in amenity_nodes: ##holy MOLY IT'S A FOR LOOP!!!!!!!!!##
-        try: ##a try except block to catch exceptions! ERROR HANDLING!!!!!!!##
-            ##Dijkstra's algorithm: finds the shortest walking route in meters thank you claude lol##
-            meters = nx.shortest_path_length(
-                G, housing_node, amenity_node, weight="length" ##weight is length in meters, not intersections or turns## 
-            )
-        except nx.NetworkXNoPath:
-            continue   ## error handling for if no path exists##
- 
+    for amenity_node, name in amenity_nodes:
+        meters = dist_map.get(amenity_node)
+        if meters is None:        # not reachable within cutoff
+            continue
         if meters < best_meters:
             best_meters = meters
-            best_name   = name
+            best_name = name
  
-    # If nothing is within 0.25 miles, return zeros
     if best_meters > max_walking_meters:
-        return 0, "", None
+        return 0.0, "", None
  
     return score(best_meters), best_name, round(best_meters / meters_per_mile, 3)
 
-##now this scores the housing projects frfr##
+##now this scores the housing projects ##
 
 print("\nScoring housing projects")
 rows = []
  
-for i, (_, h) in enumerate(housing.iterrows(), 1): ##holy moly a for loop!!!!!!!##
+housing_nodes = [
+    snap(row["lon"], row["lat"])
+    for _, row in housing.iterrows()
+]
+ 
+for i, ((_, h), h_node) in enumerate(zip(housing.iterrows(), housing_nodes), 1):
     name = h.get("project_name", f"Project {i}")
     print(f"  [{i}/{len(housing)}] {name}")
  
-    ##Snap housing project to the nearest street intersection##
-    h_node = snap(h["lon"], h["lat"])
+    # one bounded shortest-path search from this house, capped at max walking distance
+    dist_map = nx.single_source_dijkstra_path_length(
+        G, h_node, cutoff=max_walking_meters, weight="length"
+    )
  
-    ##Get score, nearest amenity name, and walking distance for each category##
-    score_ml, nearestname_ml, nearestdistance_ml = nearest_amenity(h_node, meal_nodes)
-    score_gd, nearestname_gd, nearestdistance_gd = nearest_amenity(h_node, gd_nodes)
-    score_mk, nearestname_mk, nearestdistance_mk = nearest_amenity(h_node, mk_nodes)
+    score_ml, nearestname_ml, nearestdistance_ml = nearest_amenity(dist_map, meal_nodes)
+    score_gd, nearestname_gd, nearestdistance_gd = nearest_amenity(dist_map, gd_nodes)
+    score_mk, nearestname_mk, nearestdistance_mk = nearest_amenity(dist_map, mk_nodes)
  
     total = score_ml + score_gd + score_mk
  
-    rows.append({ ##this is now a dictionary. when the loop finishes rows is a list of all the housing projects with their scores and nearest amenities and distances##
-        ##affordable housing project info##
-        "project_name"         : h.get("project_name", ""),
-        "address"              : h.get("address", ""),
-        "status"               : h.get("status", ""),
-        "total_units"          : h.get("total_units", ""),
-        "lon"                  : round(h["lon"], 6),
-        "lat"                  : round(h["lat"], 6),
+    rows.append({
+        "project_name": h.get("project_name", ""),
+        "address": h.get("address", ""),
+        "status": h.get("status", ""),
+        "total_units": h.get("total_units", ""),
+        "lon": round(h["lon"], 6),
+        "lat": round(h["lat"], 6),
  
-        ##meal sites info##
-        "meal_sites_score"     : score_ml,    
-        "meal_sites_nearest"   : nearestname_ml,   
-        "meal_sites_walk_mi"   : nearestdistance_ml,   
+        "meal_sites_score": score_ml,
+        "meal_sites_nearest": nearestname_ml,
+        "meal_sites_walk_mi": nearestdistance_ml,
  
-        ##community gardens info##
-        "gardens_score"        : score_gd,
-        "gardens_nearest"      : nearestname_gd,
-        "gardens_walk_mi"      : nearestdistance_gd,
+        "gardens_score": score_gd,
+        "gardens_nearest": nearestname_gd,
+        "gardens_walk_mi": nearestdistance_gd,
  
-        ##farmers markets info##
-        "markets_score"        : score_mk,
-        "markets_nearest"      : nearestname_mk,
-        "markets_walk_mi"      : nearestdistance_mk,
+        "markets_score": score_mk,
+        "markets_nearest": nearestname_mk,
+        "markets_walk_mi": nearestdistance_mk,
  
-        ##totals info##
-        "walkability_total"    : total,          # 0 to 9.0
-        "walkability_label"    : label(total),   # Excellent / Good / Fair / Poor / Very Poor
+        "walkability_total": total,         
+        "walkability_label": label(total),
     })
 
-##thank god the last step, this is just saving the results to a new csv file and printing some summaries##
+##just saving the results to a new csv file and printing some summaries##
 
 output = pd.DataFrame(rows).sort_values("walkability_total", ascending=False)
+ 
+# make sure total_units is numeric so the unit sums below behave
+output["total_units"] = pd.to_numeric(output["total_units"], errors="coerce")
+ 
 output.to_csv("affordable_housing_walkability.csv", index=False)
  
-print(f"\nDone! Saved → affordable_housing_walkability.csv ({len(output)} rows)")
+print(f"\nDone! Saved -> affordable_housing_walkability.csv ({len(output)} rows)")
  
-print("\n── Score label breakdown ──────────────────────────")
+print("\n-- Score label breakdown -----------------------------")
 print(output["walkability_label"].value_counts().to_string())
  
-print("\n── Average score per category ─────────────────────")
+print("\n-- Average score per category ------------------------")
 for col in ["meal_sites_score", "gardens_score", "markets_score"]:
     print(f"  {col:22s}: {output[col].mean():.2f} avg")
  
-print("\n── Top 10 most walkable housing projects ──────────")
+print("\n-- Top 10 most walkable housing projects -------------")
 print(output[[
     "project_name", "walkability_total", "walkability_label",
     "meal_sites_score", "gardens_score", "markets_score"
 ]].head(10).to_string(index=False))
+ 
+print("\n-- Top 10 least walkable housing projects -------------")
+# many projects tie at the bottom (total 0), so among equal totals show the
+# largest buildings first -- those are the highest-impact access gaps
+worst = output.sort_values(
+    ["walkability_total", "total_units"],
+    ascending=[True, False]
+)
+print(worst[[
+    "project_name", "walkability_total", "walkability_label",
+    "meal_sites_score", "gardens_score", "markets_score", "total_units"
+]].head(10).to_string(index=False))
+ 
+print("\n-- Zero-access housing (no amenity within 1.5 mi) ----")
+# score of exactly 0 = nothing reachable in ANY category. Worth calling out
+# separately, since these are total-isolation cases, not just low scorers.
+zero_access = output[output["walkability_total"] == 0]
+zero_units = zero_access["total_units"].sum()
+total_units = output["total_units"].sum()
+print(f"  Projects with zero access : {len(zero_access)} of {len(output)}")
+print(f"  Units in those projects   : {zero_units:.0f} of {total_units:.0f} "
+      f"({zero_units / total_units * 100:.1f}%)")
+ 
+print("\n-- Distribution of total scores ----------------------")
+print(output["walkability_total"].describe())
+print("  Median:", output["walkability_total"].median())
+ 
+print("\n-- Nearest-amenity distances (reachable only) --------")
+for col in ["meal_sites_walk_mi", "gardens_walk_mi", "markets_walk_mi"]:
+    print(f"  {col:20s}: median {output[col].median():.2f} mi, "
+          f"unreachable {output[col].isna().sum()} houses")
+ 
+print("\n-- Most-frequently-nearest meal sites ----------------")
+print(output.loc[output["meal_sites_nearest"] != "", "meal_sites_nearest"]
+      .value_counts().head(10).to_string())
+ 
+print("\n-- Units vs walkability correlation ------------------")
+print(output[["total_units", "walkability_total"]].corr().to_string())
+
+
 

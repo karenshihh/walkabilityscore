@@ -169,8 +169,6 @@ housing_nodes = [
  
 for i, ((_, h), h_node) in enumerate(zip(housing.iterrows(), housing_nodes), 1):
     name = h.get("project_name", f"Project {i}")
-    print(f"  [{i}/{len(housing)}] {name}")
- 
     # one bounded shortest-path search from this house, capped at max walking distance
     dist_map = nx.single_source_dijkstra_path_length(
         G, h_node, cutoff=max_walking_meters, weight="length"
@@ -181,6 +179,8 @@ for i, ((_, h), h_node) in enumerate(zip(housing.iterrows(), housing_nodes), 1):
     score_mk, nearestname_mk, nearestdistance_mk = nearest_amenity(dist_map, mk_nodes)
  
     total = score_ml + score_gd + score_mk
+ 
+    print(f"  [{i}/{len(housing)}] {name} -- {total}")
  
     rows.append({
         "project_name": h.get("project_name", ""),
@@ -202,71 +202,79 @@ for i, ((_, h), h_node) in enumerate(zip(housing.iterrows(), housing_nodes), 1):
         "markets_nearest": nearestname_mk,
         "markets_walk_mi": nearestdistance_mk,
  
-        "walkability_total": total,         
+        "walkability_total": total,
         "walkability_label": label(total),
     })
 
-##just saving the results to a new csv file and printing some summaries##
 
 output = pd.DataFrame(rows).sort_values("walkability_total", ascending=False)
- 
-# make sure total_units is numeric so the unit sums below behave
+
 output["total_units"] = pd.to_numeric(output["total_units"], errors="coerce")
  
 output.to_csv("affordable_housing_walkability.csv", index=False)
  
-print(f"\nDone! Saved -> affordable_housing_walkability.csv ({len(output)} rows)")
+##build the summary report as a list of lines, then write it all to a text file ##
+lines = []
  
-print("\n-- Score label breakdown -----------------------------")
-print(output["walkability_label"].value_counts().to_string())
+lines.append("PHILADELPHIA AFFORDABLE HOUSING WALKABILITY -- SUMMARY REPORT")
+lines.append(f"Housing projects scored: {len(output)}")
  
-print("\n-- Average score per category ------------------------")
+lines.append("\n-- Score label breakdown -----------------------------")
+lines.append(output["walkability_label"].value_counts().to_string())
+ 
+lines.append("\n-- Average score per category ------------------------")
 for col in ["meal_sites_score", "gardens_score", "markets_score"]:
-    print(f"  {col:22s}: {output[col].mean():.2f} avg")
+    lines.append(f"  {col:22s}: {output[col].mean():.2f} avg")
  
-print("\n-- Top 10 most walkable housing projects -------------")
-print(output[[
+lines.append("\n-- Top 10 most walkable housing projects -------------")
+lines.append(output[[
     "project_name", "walkability_total", "walkability_label",
     "meal_sites_score", "gardens_score", "markets_score"
 ]].head(10).to_string(index=False))
  
-print("\n-- Top 10 least walkable housing projects -------------")
-# many projects tie at the bottom (total 0), so among equal totals show the
-# largest buildings first -- those are the highest-impact access gaps
+lines.append("\n-- Top 10 least walkable housing projects -------------")
+# many projects tie at the bottom (total 0), so among equal totals show the largest buildings first -- those are the highest-impact access gaps ##
 worst = output.sort_values(
     ["walkability_total", "total_units"],
     ascending=[True, False]
 )
-print(worst[[
+lines.append(worst[[
     "project_name", "walkability_total", "walkability_label",
     "meal_sites_score", "gardens_score", "markets_score", "total_units"
 ]].head(10).to_string(index=False))
  
-print("\n-- Zero-access housing (no amenity within 1.5 mi) ----")
-# score of exactly 0 = nothing reachable in ANY category. Worth calling out
-# separately, since these are total-isolation cases, not just low scorers.
+lines.append("\n-- Zero-access housing (no amenity within 1.5 mi) ----")
+# score of exactly 0 = nothing reachable in ANY category. Worth calling out separately, since these are total-isolation cases, not just low scorers. ##
 zero_access = output[output["walkability_total"] == 0]
 zero_units = zero_access["total_units"].sum()
 total_units = output["total_units"].sum()
-print(f"  Projects with zero access : {len(zero_access)} of {len(output)}")
-print(f"  Units in those projects   : {zero_units:.0f} of {total_units:.0f} "
-      f"({zero_units / total_units * 100:.1f}%)")
+lines.append(f"  Projects with zero access : {len(zero_access)} of {len(output)}")
+lines.append(f"  Units in those projects   : {zero_units:.0f} of {total_units:.0f} "
+             f"({zero_units / total_units * 100:.1f}%)")
  
-print("\n-- Distribution of total scores ----------------------")
-print(output["walkability_total"].describe())
-print("  Median:", output["walkability_total"].median())
+lines.append("\n-- Distribution of total scores ----------------------")
+lines.append(output["walkability_total"].describe().to_string())
+lines.append(f"  Median: {output['walkability_total'].median()}")
  
-print("\n-- Nearest-amenity distances (reachable only) --------")
+lines.append("\n-- Nearest-amenity distances (reachable only) --------")
 for col in ["meal_sites_walk_mi", "gardens_walk_mi", "markets_walk_mi"]:
-    print(f"  {col:20s}: median {output[col].median():.2f} mi, "
-          f"unreachable {output[col].isna().sum()} houses")
+    lines.append(f"  {col:20s}: median {output[col].median():.2f} mi, "
+                 f"unreachable {output[col].isna().sum()} houses")
  
-print("\n-- Most-frequently-nearest meal sites ----------------")
-print(output.loc[output["meal_sites_nearest"] != "", "meal_sites_nearest"]
-      .value_counts().head(10).to_string())
+lines.append("\n-- Most-frequently-nearest meal sites ----------------")
+lines.append(output.loc[output["meal_sites_nearest"] != "", "meal_sites_nearest"]
+             .value_counts().head(10).to_string())
  
-print("\n-- Units vs walkability correlation ------------------")
-print(output[["total_units", "walkability_total"]].corr().to_string())
+lines.append("\n-- Units vs walkability correlation ------------------")
+lines.append(output[["total_units", "walkability_total"]].corr().to_string())
+ 
+# write the whole report to a text file ##
+report = "\n".join(lines)
+with open("walkability_summary.txt", "w", encoding="utf-8") as f:
+    f.write(report)
+print(f"\nDone!")
+print(f"  Full results : affordable_housing_walkability.csv ({len(output)} rows)")
+print(f"  Summary stats: walkability_summary.txt")
 
 
 

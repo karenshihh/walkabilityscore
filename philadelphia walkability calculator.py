@@ -1,9 +1,8 @@
 ##philadelphia walkability calculator# #
 
 
-## imports: sys for crashing, pandas reads excel, osmnx + networkx for the street  ##
+## imports: pandas reads excel, osmnx + networkx for the street  ##
 ## network, pyproj for coordinate transforms (web mercator <-> lon/lat) $$
-import sys
 import pandas as pd
 import osmnx as ox
 import networkx as nx
@@ -208,12 +207,13 @@ for i, ((_, h), h_node) in enumerate(zip(housing.iterrows(), housing_nodes), 1):
 
 
 output = pd.DataFrame(rows).sort_values("walkability_total", ascending=False)
-
+ 
+# make sure total_units is numeric so the unit sums below behave
 output["total_units"] = pd.to_numeric(output["total_units"], errors="coerce")
  
 output.to_csv("affordable_housing_walkability.csv", index=False)
  
-##build the summary report as a list of lines, then write it all to a text file ##
+# build the summary report as a list of lines, then write it all to a text file
 lines = []
  
 lines.append("PHILADELPHIA AFFORDABLE HOUSING WALKABILITY -- SUMMARY REPORT")
@@ -233,7 +233,8 @@ lines.append(output[[
 ]].head(10).to_string(index=False))
  
 lines.append("\n-- Top 10 least walkable housing projects -------------")
-# many projects tie at the bottom (total 0), so among equal totals show the largest buildings first -- those are the highest-impact access gaps ##
+# many projects tie at the bottom (total 0), so among equal totals show the
+# largest buildings first -- those are the highest-impact access gaps
 worst = output.sort_values(
     ["walkability_total", "total_units"],
     ascending=[True, False]
@@ -244,7 +245,8 @@ lines.append(worst[[
 ]].head(10).to_string(index=False))
  
 lines.append("\n-- Zero-access housing (no amenity within 1.5 mi) ----")
-# score of exactly 0 = nothing reachable in ANY category. Worth calling out separately, since these are total-isolation cases, not just low scorers. ##
+# score of exactly 0 = nothing reachable in ANY category. Worth calling out
+# separately, since these are total-isolation cases, not just low scorers.
 zero_access = output[output["walkability_total"] == 0]
 zero_units = zero_access["total_units"].sum()
 total_units = output["total_units"].sum()
@@ -268,10 +270,12 @@ lines.append(output.loc[output["meal_sites_nearest"] != "", "meal_sites_nearest"
 lines.append("\n-- Units vs walkability correlation ------------------")
 lines.append(output[["total_units", "walkability_total"]].corr().to_string())
  
-# write the whole report to a text file ##
+# write the whole report to a text file
 report = "\n".join(lines)
 with open("walkability_summary.txt", "w", encoding="utf-8") as f:
     f.write(report)
+ 
+# short confirmation to the terminal so you know it finished
 print(f"\nDone!")
 print(f"  Full results : affordable_housing_walkability.csv ({len(output)} rows)")
 print(f"  Summary stats: walkability_summary.txt")

@@ -1,0 +1,435 @@
+project_name,address,status,total_units,lon,lat,meal_sites_score,meal_sites_nearest,meal_sites_walk_mi,gardens_score,gardens_nearest,gardens_walk_mi,markets_score,markets_nearest,markets_walk_mi,walkability_total,walkability_label
+St. Maron Hall,921-31 ELLSWORTH ST,Complete,64,-75.159389,39.935433,3,South Philly Community Fridge at the People's Kitchen,0.087,3,Capitolo Community Garden,0.095,2.5,East Passyunk Farmers' Market,0.376,8.5,Excellent
+Homestart,2618 SEYBERT ST,Complete,4,-75.178997,39.976101,2.5,Mighty Writers North,0.36,3,Brewerytown Garden,0.099,3,Brewerytown Garden Farm Stand,0.108,8.5,Excellent
+HELP Philadelphia VI,2300-52 JEFFERSON ST,Complete,55,-75.173144,39.977754,3,Mighty Writers North,0.096,2.5,Brewerytown Garden,0.428,3,Sanctuary Farm Phila,0.247,8.5,Excellent
+Brewerytown Homestart,1343 N 28TH ST,Complete,4,-75.181075,39.977092,2.5,Brewerytown Sharswood Coalition,0.328,3,Brewerytown Garden,0.084,3,Brewerytown Garden Farm Stand,0.085,8.5,Excellent
+Mt. Tabor Senior Cyber Village,973 N 7TH ST,Complete,56,-75.148049,39.969613,3,Friends Rehabilitation Program,0.063,3,FNC Community Learning Farm at 8th and Poplar,0.247,2,Northern Liberties Farmers Market ,0.591,8,Excellent
+Mid City Y Apartments,2025-29 CHESTNUT ST,Complete,53,-75.173992,39.952144,3,"Church of the Holy Trinity, Open Hearts Cafe",0.162,2,Schuylkill River Park Community Garden,0.635,3,Rittenhouse Farmers' Market,0.207,8,Excellent
+Kate's Place,1929 SANSOM STREET,Complete,144,-75.173379,39.951435,3,"Church of the Holy Trinity, Open Hearts Cafe",0.108,2,Schuylkill River Park Community Garden,0.583,3,Rittenhouse Farmers' Market,0.153,8,Excellent
+Brewerytown Homestart,1423 N 30TH ST,Complete,5,-75.184128,39.978308,3,Brewerytown Sharswood Coalition,0.156,2.5,Brewerytown Garden,0.258,2.5,Brewerytown Garden Farm Stand,0.259,8,Excellent
+Sharswood II,2100-42 JEFFERSON ST,Complete,60,-75.169968,39.977326,3,King Older Adult Center,0.188,2,Brewerytown Garden,0.596,3,Sanctuary Farm Phila,0.196,8,Excellent
+Horizon House I,246 S 12TH ST,Complete,9,-75.161172,39.947252,3,Philadelphia FIGHT,0.099,3,Sartain Community Garden,0.065,2,Rittenhouse Farmers' Market,0.691,8,Excellent
+Sharswood Phase II,2401-55 STEWART ST,Complete,59,-75.174842,39.977619,3,Mighty Writers North,0.155,2.5,Brewerytown Garden,0.326,2.5,Brewerytown Garden Farm Stand,0.336,8,Excellent
+John Anderson/William Way Senior,249-57 S 13TH ST,Complete,56,-75.162496,39.947281,3,Philadelphia FIGHT,0.091,3,Sartain Community Garden,0.16,2,Rittenhouse Farmers' Market,0.651,8,Excellent
+Haven Peniel Senior 202,1615 N 23RD ST,Complete,55,-75.172224,39.979781,3,King Older Adult Center,0.177,2,Brewerytown Garden,0.574,3,Sanctuary Farm Phila,0.113,8,Excellent
+Brewerytown Homestart,1728 N 28TH ST,Complete,11,-75.180347,39.982283,3,Gideon School,0.147,2.5,Brewerytown Garden,0.451,2.5,Brewerytown Garden Farm Stand,0.453,8,Excellent
+Lillia Crippen Townhouses II,1826-46 N 6TH ST,Complete,20,-75.156023,39.925538,3,South Philly Community Fridge at BOK Building,0.204,2.5,Growing Homes Community Garden,0.311,2.5,Dickinson Square Farmers' Market ,0.373,8,Excellent
+Youthbuild,1523 S HICKS ST,Complete,2,-75.170337,39.931468,3,Mount Hebron Baptist Church,0.242,2.5,South Philadelphia Older Adult Center Garden,0.469,2.5,East Passyunk Farmers' Market,0.437,8,Excellent
+8th and Berks Senior Living,1821-61 N 8TH ST,Complete,44,-75.159058,39.926098,3,South Philly Community Fridge at BOK Building,0.044,3,Growing Homes Community Garden,0.151,2,East Passyunk Farmers' Market,0.525,8,Excellent
+WCRP Berks Street,1826-1846 N 6TH ST,Complete,26,-75.156023,39.925538,3,South Philly Community Fridge at BOK Building,0.204,2.5,Growing Homes Community Garden,0.311,2.5,Dickinson Square Farmers' Market ,0.373,8,Excellent
+Casa Farnese 202,1300-28 LOMBARD ST,Complete,288,-75.163176,39.944395,3,Philadelphia Senior Center - Avenue of the Arts and Asia-Pacific Senior Resource Center,0.14,3,Waverly Street Community Garden,0.191,1.5,Rittenhouse Farmers' Market,0.834,7.5,Excellent
+Sartain Apartments,3017-45 W OXFORD ST,Complete,35,-75.184458,39.980702,2.5,Gideon School,0.334,2.5,Brewerytown Garden,0.484,2.5,Brewerytown Garden Farm Stand,0.486,7.5,Excellent
+My Brothers House,609 SOUTH 15TH STREET,Complete,1,-75.167138,39.943562,3,Philadelphia Senior Center - Avenue of the Arts and Asia-Pacific Senior Resource Center,0.156,2.5,Waverly Street Community Garden,0.486,2,Rittenhouse Farmers' Market,0.735,7.5,Excellent
+500 Emily Street Revitalization,514 EMILY ST,Complete,5,-75.155579,39.92327,2.5,South Philly Community Fridge at Mifflin Sq. Park,0.276,2.5,Growing Homes Community Garden,0.252,2.5,Dickinson Square Farmers' Market ,0.432,7.5,Excellent
+CATCH - Anna's House,1208 S 15TH ST,Under Construction,12,-75.169187,39.935693,3,Mount Hebron Baptist Church,0.125,2.5,Capitolo Community Garden,0.49,2,East Passyunk Farmers' Market,0.61,7.5,Excellent
+Jefferson Square,1208 S 5TH ST,Complete,24,-75.152891,39.933234,2.5,South Philly Community Fridge at the People's Kitchen,0.416,3,Manton Street Park Community Garden,0.085,2,Dickinson Square Farmers' Market ,0.513,7.5,Excellent
+Drueding Center,413 WEST MASTER STREET,Complete,0,-75.143182,39.972691,3,Dreuding Center,0.082,2,FNC Community Learning Farm at 8th and Poplar,0.734,2.5,Northern Liberties Farmers Market ,0.469,7.5,Excellent
+Presbyterian Homes,501-35 JACKSON ST,Complete,67,-75.155338,39.921294,3,South Philly Community Fridge at Mifflin Sq. Park,0.136,2.5,Growing Homes Community Garden,0.392,2,Dickinson Square Farmers' Market ,0.572,7.5,Excellent
+Reed Street,501 REED ST,Complete,18,-75.153522,39.931223,2.5,South Philly Community Fridge at the People's Kitchen,0.499,2.5,Manton Street Park Community Garden,0.256,2.5,Dickinson Square Farmers' Market ,0.406,7.5,Excellent
+Respite II,1208-12 S 15TH ST,Complete,16,-75.168995,39.935702,3,Mount Hebron Baptist Church,0.125,2.5,Capitolo Community Garden,0.49,2,East Passyunk Farmers' Market,0.61,7.5,Excellent
+Jefferson Square,1209 S 4TH ST,Complete,6,-75.150894,39.932951,2,South Philly Community Fridge at the People's Kitchen,0.501,3,Manton Street Park Community Garden,0,2.5,Dickinson Square Farmers' Market ,0.431,7.5,Excellent
+4th Street Access,1912-30 N 4TH ST,Complete,24,-75.153059,39.924291,2.5,South Philly Community Fridge at BOK Building,0.374,2.5,Growing Homes Community Garden,0.42,2.5,Dickinson Square Farmers' Market ,0.264,7.5,Excellent
+Reed Street Presbyterian,1401-35 S 16TH ST,Complete,84,-75.171087,39.933326,3,Mount Hebron Baptist Church,0.211,2,South Philadelphia Older Adult Center Garden,0.562,2.5,Point Breeze Community Market,0.457,7.5,Excellent
+Harlan Sharswood Preservation,2100 SHARSWOOD ST,Complete,113,-75.170473,39.97655,3,Mighty Writers North,0.195,2,Brewerytown Garden,0.536,2.5,Sanctuary Farm Phila,0.269,7.5,Excellent
+Center City Y,2027 CHESTNUT ST,Complete,60,-75.174428,39.952487,3,"Church of the Holy Trinity, Open Hearts Cafe",0.247,2,Schuylkill River Park Community Garden,0.549,2.5,Rittenhouse Farmers' Market,0.292,7.5,Excellent
+Karen Donnally,2028-40 N 4TH ST,Complete,44,-75.153404,39.922719,2.5,South Philly Community Fridge at Mifflin Sq. Park,0.336,2.5,Growing Homes Community Garden,0.36,2.5,Dickinson Square Farmers' Market ,0.372,7.5,Excellent
+Johnnie Tillmon Homes,1327 N ORIANNA ST,Complete,21,-75.141857,39.972148,3,Dreuding Center,0.119,2,FNC Community Learning Farm at 8th and Poplar,0.741,2.5,Northern Liberties Farmers Market ,0.362,7.5,Excellent
+Drueding Rainbow,1328-36 N 4TH ST,Complete,10,-75.151476,39.931418,2,South Philly Community Fridge at the People's Kitchen,0.583,3,Manton Street Park Community Garden,0.09,2.5,Dickinson Square Farmers' Market ,0.341,7.5,Excellent
+Osun Village Senior,2308 GRAYS FERRY AVE,Complete,16,-75.180294,39.94509,2,"Church of the Holy Trinity, Open Hearts Cafe",0.722,2.5,Schuylkill River Park Community Garden,0.399,3,Fitler Square Farmers Market,0.179,7.5,Excellent
+JBJ Soul Homes,1415 FAIRMOUNT AVE,Complete,55,-75.161701,39.967409,3,Salvation Army Temple,0.238,2.5,The Spring Gardens,0.418,2,Fairmount Farmers' Market,0.678,7.5,Excellent
+St. Rita Place,1148 S BROAD ST,Complete,46,-75.167455,39.936722,3,South Philadelphia WIC Office,0.103,2.5,Capitolo Community Garden,0.45,2,East Passyunk Farmers' Market,0.62,7.5,Excellent
+Gloria Casarez Residence/1315 N 8th,1315 N 8TH ST,Complete,30,-75.149307,39.972346,3,Friends Rehabilitation Program,0.196,2.5,FNC Community Learning Farm at 8th and Poplar,0.306,2,Sanctuary Farm at Health Connections,0.651,7.5,Excellent
+Peg's Place,1301 N 8TH ST,Complete,40,-75.149307,39.972346,3,Friends Rehabilitation Program,0.196,2.5,FNC Community Learning Farm at 8th and Poplar,0.306,2,Sanctuary Farm at Health Connections,0.651,7.5,Excellent
+The Sheldrake - 4901 Spruce,4901-09 SPRUCE ST,Complete,33,-75.220113,39.953882,2,Catholic Housing and Community Services Star Harbor Senior Center Satellite,0.699,3,Garden Court Community Garden,0.234,2.5,Black Farmers Market,0.389,7.5,Excellent
+Cantrell Place,447 CANTRELL ST,Complete,61,-75.154809,39.922084,3,South Philly Community Fridge at Mifflin Sq. Park,0.209,2.5,Growing Homes Community Garden,0.358,2,Dickinson Square Farmers' Market ,0.502,7.5,Excellent
+North Star Point Breeze,1415 S 20TH ST,Complete,6,-75.177282,39.93366,3,Philadelphia Housing Authority Cassie L. Holly Apts. Satelite,0.24,1.5,South Philadelphia Older Adult Center Garden,0.914,3,Point Breeze Community Market,0.148,7.5,Excellent
+Francisville VI,804 N UBER ST,Complete,8,-75.169119,39.969337,2,MAP Holistic CDC (Mankind Against Poverty),0.644,2.5,The Spring Gardens,0.283,2.5,Fairmount Farmers' Market,0.377,7,Excellent
+Southwark Plaza,301 WASHINGTON AVE,Complete,470,-75.149816,39.935346,2,Mighty Writers El Futuro,0.539,3,Manton Street Park Community Garden,0.214,2,Dickinson Square Farmers' Market ,0.645,7,Excellent
+Patriot House,1221-25 S 15TH ST,Complete,15,-75.169078,39.935152,3,Mount Hebron Baptist Church,0.096,2,Capitolo Community Garden,0.516,2,East Passyunk Farmers' Market,0.581,7,Excellent
+Latona Green,1231 S 17TH ST,Complete,10,-75.172039,39.935493,2.5,Mount Hebron Baptist Church,0.265,2,Capitolo Community Garden,0.685,2.5,Point Breeze Community Market,0.468,7,Excellent
+Mt. Sinai,430 REED ST,Complete,37,-75.152797,39.93081,2,South Philly Community Fridge at the People's Kitchen,0.565,2.5,Manton Street Park Community Garden,0.258,2.5,Dickinson Square Farmers' Market ,0.379,7,Excellent
+Regent Terrace,5117 REGENT STREET,Under Construction,80,-75.219119,39.941644,2.5,Grace Tabernacle Christian Church,0.295,3,Kingsessing Community Garden,0.007,1.5,Clark Park Farmers Market,0.773,7,Excellent
+Beaumont Initiative,5015 BEAUMONT ST,Complete,2,-75.221696,39.945775,2.5,New Testament Church of God,0.437,2.5,Kingsessing Community Garden,0.383,2,Black Farmers Market,0.711,7,Excellent
+Potter's House,524-26 S 52ND ST,Complete,14,-75.226682,39.951479,2,New Testament Church of God,0.529,2,Garden Court Community Garden,0.712,3,Black Farmers Market,0.145,7,Excellent
+Dignity II Project,5151 WAYNE AVE,Complete,16,-75.170524,40.027262,2.5,Holsey Temple CME Church,0.498,2,Fernhill Food Forest,0.749,2.5,Grumblethorpe Youth Farmstand,0.424,7,Excellent
+17th & Federal,1220 S 17TH ST,Complete,11,-75.172366,39.93592,2.5,Mount Hebron Baptist Church,0.293,2,Capitolo Community Garden,0.659,2.5,Point Breeze Community Market,0.494,7,Excellent
+St. John the Evangelist House,1212 LUDLOW ST,Complete,79,-75.160849,39.951194,2.5,Philadelphia FIGHT,0.281,2.5,Sartain Community Garden,0.401,2,Rittenhouse Farmers' Market,0.737,7,Excellent
+Community Ventures - Point Breeze Scattered,1310 S 16TH ST,Complete,8,-75.17117,39.934285,3,Mount Hebron Baptist Church,0.126,2,Capitolo Community Garden,0.633,2,Point Breeze Community Market,0.509,7,Excellent
+YouthBuild,2120 CROSS ST,Complete,4,-75.180373,39.932381,3,Philadelphia Housing Authority Cassie L. Holly Apts. Satelite,0.131,1,South Philadelphia Older Adult Center Garden,1.035,3,Point Breeze Community Market,0.174,7,Excellent
+Cross/Greenwich - Habitat,2325 CROSS ST,Complete,6,-75.183704,39.933017,3,New Bethany Baptist Church,0.111,1,South Philadelphia Older Adult Center Garden,1.173,3,Point Breeze Community Market,0.247,7,Excellent
+Ruth Williams House,2413-29 N BROAD ST,Complete,88,-75.170474,39.920472,3,Marconi Older Adult Program,0.179,1.5,Growing Homes Community Garden,0.795,2.5,Guerin Rec Center Farmers Market ,0.393,7,Excellent
+St. Anthony's,2302 MONTROSE ST,Complete,54,-75.181297,39.941404,2.5,New Bethany Baptist Church,0.489,2,Schuylkill River Park Community Garden,0.632,2.5,Fitler Square Farmers Market,0.442,7,Excellent
+Cross/Greenwich - UCH,2300 CROSS ST,Complete,9,-75.183135,39.932723,3,New Bethany Baptist Church,0.111,1,South Philadelphia Older Adult Center Garden,1.173,3,Point Breeze Community Market,0.247,7,Excellent
+North Central Neighborhood II,1914 N 7TH ST,Complete,89,-75.146503,39.980732,2.5,Norris Homes/North Central Community Center,0.407,1.5,FNC Community Learning Farm at 8th and Poplar,0.971,3,Sanctuary Farm at Health Connections,0.141,7,Excellent
+17th St. Community Corridor Phase I (formerly 17th St. Revitalization),1412-18 N 17TH ST,Under Construction,40,-75.172719,39.93338,2.5,Mount Hebron Baptist Church,0.296,2,South Philadelphia Older Adult Center Garden,0.646,2.5,Point Breeze Community Market,0.372,7,Excellent
+Sharswood,1412-22 N 23RD ST,Complete,71,-75.182656,39.934423,3,New Bethany Baptist Church,0,1,Schuylkill River Park Community Garden,1.122,3,Point Breeze Community Market,0.189,7,Excellent
+Ludlow Village V/Pradera III,1500 N FRANKLIN ST,Complete,25,-75.148321,39.974689,2.5,Friends Rehabilitation Program,0.353,2,FNC Community Learning Farm at 8th and Poplar,0.509,2.5,Sanctuary Farm at Health Connections,0.493,7,Excellent
+Sharswood Phase I,2000-2026 SEYBERT ST,Complete,60,-75.169176,39.975216,2.5,Mighty Writers North,0.277,2,Brewerytown Garden,0.618,2.5,Sanctuary Farm Phila,0.393,7,Excellent
+Sharswood Phase III,2000-22 RIDGE AVE,Complete,217,-75.168294,39.975283,2.5,Mighty Writers North,0.299,2,Brewerytown Garden,0.64,2.5,Sanctuary Farm Phila,0.355,7,Excellent
+Latona Street Project,2240 LATONA ST,Complete,4,-75.181638,39.93661,3,New Bethany Baptist Church,0.166,1.5,Schuylkill River Park Community Garden,0.956,2.5,Point Breeze Community Market,0.294,7,Excellent
+Rowan Judson Diamond,1901-27 JUDSON ST,Complete,39,-75.172618,39.983763,3,Project HOME,0.065,1.5,Brewerytown Garden,0.79,2.5,Sanctuary Farm Phila,0.374,7,Excellent
+Ludlow Village IV,1600 N 7TH ST,Complete,25,-75.147323,39.976005,2.5,Friends Rehabilitation Program,0.39,2,FNC Community Learning Farm at 8th and Poplar,0.662,2.5,Sanctuary Farm at Health Connections,0.45,7,Excellent
+Project HOME CDC Preservation,1523 FAIRMOUNT AVENUE,Under Construction,112,-75.163066,39.967368,2.5,Salvation Army Temple,0.311,2.5,The Spring Gardens,0.313,2,Fairmount Farmers' Market,0.574,7,Excellent
+Norris Homes Phase V,1900 NORTH 10TH STREET,Complete,133,-75.150666,39.981647,3,Norris Homes/North Central Community Center,0.148,1,FNC Community Learning Farm at 8th and Poplar,1.105,3,Sanctuary Farm at Health Connections,0.156,7,Excellent
+Rowan Homes II,1900-06 JUDSON ST,Complete,32,-75.172653,39.983768,3,Project HOME,0.065,1.5,Brewerytown Garden,0.79,2.5,Sanctuary Farm Phila,0.374,7,Excellent
+Cecil B. Moore III-3,1900 HARLAN ST,Complete,33,-75.166821,39.975994,2.5,Mighty Writers North,0.386,2,Brewerytown Garden,0.727,2.5,Sanctuary Farm Phila,0.428,7,Excellent
+St. Elizabeth V,1852 N 23RD ST,Complete,15,-75.172119,39.983354,3,Project HOME,0.022,1.5,Brewerytown Garden,0.831,2.5,Sanctuary Farm Phila,0.331,7,Excellent
+Project HOME St. Elizabeth's Recovery Residence,1850 N CROSKEY ST,Under Construction,24,-75.171367,39.983111,3,Project HOME,0,1.5,Brewerytown Garden,0.853,2.5,Sanctuary Farm Phila,0.312,7,Excellent
+Paseo Verde NMTC,1900 N 9TH ST,Complete,67,-75.148995,39.981454,3,Norris Homes/North Central Community Center,0.217,1,FNC Community Learning Farm at 8th and Poplar,1.001,3,Sanctuary Farm at Health Connections,0.05,7,Excellent
+Cecil B. Moore III-1,1501 N UBER ST,Complete,64,-75.166978,39.977093,2.5,King Older Adult Center,0.307,2,Brewerytown Garden,0.744,2.5,Sanctuary Farm Phila,0.32,7,Excellent
+Ludlow Village VI,1504 N 8TH ST,Complete,54,-75.149294,39.97487,2.5,Friends Rehabilitation Program,0.407,2,FNC Community Learning Farm at 8th and Poplar,0.516,2.5,Sanctuary Farm at Health Connections,0.445,7,Excellent
+Tajdeed,1505-13 CADWALLADER ST,Complete,45,-75.140898,39.973917,3,Dreuding Center,0.243,1.5,FNC Community Learning Farm at 8th and Poplar,0.895,2.5,Northern Liberties Farmers Market ,0.438,7,Excellent
+Tasker Village,1508-40 S 16TH,Complete,28,-75.171409,39.932012,2.5,Mount Hebron Baptist Church,0.296,2,South Philadelphia Older Adult Center Garden,0.522,2.5,East Passyunk Farmers' Market,0.49,7,Excellent
+Hope Haven Preservation (Preservation Projects) - remove,1515 FAIRMOUNT AVE,Complete,36,-75.16287,39.967456,2.5,Salvation Army Temple,0.251,2.5,The Spring Gardens,0.421,2,Fairmount Farmers' Market,0.682,7,Excellent
+1515 Fairmount,1515 FAIRMOUNT AVENUE,Complete,48,-75.16287,39.967456,2.5,Salvation Army Temple,0.251,2.5,The Spring Gardens,0.421,2,Fairmount Farmers' Market,0.682,7,Excellent
+Spring Garden,1711-13 WALLACE ST,Complete,49,-75.165851,39.965804,2,Salvation Army Temple,0.515,3,The Spring Gardens,0.12,2,Fairmount Farmers' Market,0.514,7,Excellent
+Francisville Elderly,1708 RIDGE AVE,Complete,42,-75.165898,39.970453,2.5,MAP Holistic CDC (Mankind Against Poverty),0.423,2.5,The Spring Gardens,0.426,2,Fairmount Farmers' Market,0.607,7,Excellent
+Cecil B. Moore Beechwood,1616 N 19TH ST,Complete,14,-75.166296,39.978922,3,King Older Adult Center,0.236,1.5,Brewerytown Garden,0.916,2.5,Sanctuary Farm Phila,0.3,7,Excellent
+Temple I Preservation,1700-04 N 16TH ST,Complete,58,-75.171929,39.929656,3,Bethany Indonesian Church,0.179,2,South Philadelphia Older Adult Center Garden,0.635,2,Guerin Rec Center Farmers Market ,0.554,7,Excellent
+Spring Garden II,1602 MOUNT VERNON ST,Complete,58,-75.164468,39.964744,2.5,Salvation Army Temple,0.49,2.5,The Spring Gardens,0.252,2,Fairmount Farmers' Market,0.646,7,Excellent
+Francisville IV-B,1612 SWAIN ST,Complete,11,-75.16423,39.967766,2.5,Salvation Army Temple,0.371,2.5,The Spring Gardens,0.286,2,Fairmount Farmers' Market,0.547,7,Excellent
+Universal Court,1601 FEDERAL ST,Complete,32,-75.170569,39.936448,3,South Philadelphia WIC Office,0.2,2,Capitolo Community Garden,0.548,2,Point Breeze Community Market,0.593,7,Excellent
+Fairmount,717 N 16TH ST,Complete,33,-75.163385,39.967699,2.5,Salvation Army Temple,0.324,2.5,The Spring Gardens,0.407,2,Fairmount Farmers' Market,0.65,7,Excellent
+The Commons at Point Breeze,1134 S 15TH ST,Complete,55,-75.16892,39.936973,3,South Philadelphia WIC Office,0.19,2,Capitolo Community Garden,0.537,2,East Passyunk Farmers' Market,0.707,7,Excellent
+LCIP III 811,1100 S BROAD ST,Complete,11,-75.167801,39.937577,3,South Philadelphia WIC Office,0.225,2,Capitolo Community Garden,0.571,2,East Passyunk Farmers' Market,0.741,7,Excellent
+Homestart West Phila. Duplex,5623 WYALUSING AVE,Complete,2,-75.233195,39.968969,3,Haddington Overbrook Resident Council,0.127,1,Cobbs Creek Park Community Garden,1.185,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.383,6.5,Good
+Universal Court II,800 S 16TH ST,Complete,21,-75.16965,39.941046,3,Tindley Temple Soup Kitchen,0.242,2,Waverly Street Community Garden,0.747,1.5,Rittenhouse Farmers' Market,0.824,6.5,Good
+801 Residence,801 LOCUST ST,Complete,175,-75.155129,39.947383,2.5,"Old St. Joseph's Faith, Food and Friends_x000D_
+",0.455,2.5,Sartain Community Garden,0.353,1.5,Headhouse Farmer's Market,0.767,6.5,Good
+Calcutta House EXP,1607 W GIRARD AVE,Complete,6,-75.162867,39.972215,3,MAP Holistic CDC (Mankind Against Poverty),0.148,2,The Spring Gardens,0.63,1.5,Sanctuary Farm Phila,0.773,6.5,Good
+Poplar Nehemiah II-B,1206 PARRISH ST,Complete,57,-75.156765,39.968035,3,Siloam Food Pantry,0.047,2.5,FNC Community Learning Farm at 8th and Poplar,0.37,1,Northern Liberties Farmers Market ,1.059,6.5,Good
+V.A. Center,213 N 4TH ST,Complete,,-75.146026,39.954657,3,"Old First United Church of Christ_x000D_
+",0.145,1,FNC Community Learning Farm at 8th and Poplar,1.171,2.5,Christ Church Farmer's Market,0.429,6.5,Good
+Mamie Nichols Townhomes,1400 S TAYLOR ST,Complete,33,-75.185386,39.935128,3,Church of Pentecost,0.157,1,Schuylkill River Park Community Garden,1.152,2.5,Point Breeze Community Market,0.314,6.5,Good
+Cecil B. Moore Homeownership Zone I-B,1400 N GRATZ ST,Complete,39,-75.166116,39.975945,2.5,North Philadelphia SDA Church,0.379,1.5,Brewerytown Garden,0.77,2.5,Sanctuary Farm Phila,0.471,6.5,Good
+Villa III,1322 N HANCOCK ST,Complete,7,-75.138377,39.971396,3,Lutheran Settlement House,0.233,1,FNC Community Learning Farm at 8th and Poplar,1.029,2.5,Northern Liberties Farmers Market ,0.416,6.5,Good
+Center West,245 S 46TH ST,Complete,17,-75.213687,39.953945,2,UC Hospitality Coalition (Woodland),0.562,2.5,Garden Court Community Garden,0.335,2,Clark Park Farmers Market,0.579,6.5,Good
+Brooks School,5631 HAVERFORD AVENUE,Complete,33,-75.233438,39.967938,3,Haddington Overbrook Resident Council,0.146,1,Cobbs Creek Park Community Garden,1.125,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.335,6.5,Good
+WPRE III,117 N 50TH ST,Complete,60,-75.220137,39.961654,2,Firehouse Active Adult Center,0.601,2,Garden Court Community Garden,0.743,2.5,52nd & Haverford Farmers Market,0.454,6.5,Good
+APM Norris Street Homeownership,1711 N FRANKLIN ST,Complete,50,-75.147284,39.977974,2,Friends Rehabilitation Program,0.535,2,FNC Community Learning Farm at 8th and Poplar,0.731,2.5,Sanctuary Farm at Health Connections,0.306,6.5,Good
+Strawberry Mansion 32nd & CBM,1631 N 32ND ST,Complete,11,-75.186573,39.981875,2.5,Gideon School,0.417,2,The Neighbors Garden at Hatfield House,0.65,2,Brewerytown Garden Farm Stand,0.694,6.5,Good
+Linda Lockman King Apartments,5500 HAVERFORD AVE,Under Construction,33,-75.230269,39.966652,3,Firehouse Active Adult Center,0.125,0.5,Cobbs Creek Park Community Garden,1.294,3,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.126,6.5,Good
+Partnership Homes II,5018 WALNUT ST,Complete,9,-75.222274,39.956323,1.5,West Philadelphia SDA,0.951,2.5,Garden Court Community Garden,0.422,2.5,Black Farmers Market,0.462,6.5,Good
+Haddington I,5416 SUMMER ST,Complete,21,-75.228441,39.964268,3,Firehouse Active Adult Center,0.14,0.5,Cobbs Creek Park Community Garden,1.287,3,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.133,6.5,Good
+Vineyard Place (Francisville V),1705 POPLAR ST,Complete,14,-75.164829,39.971049,2.5,MAP Holistic CDC (Mankind Against Poverty),0.371,2,The Spring Gardens,0.6,2,Sanctuary Farm Phila,0.713,6.5,Good
+Opportunities Towers III,5524-60 HAVERFORD AVENUE,Under Construction,59,-75.230466,39.967073,3,Firehouse Active Adult Center,0.122,0.5,Cobbs Creek Park Community Garden,1.289,3,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.127,6.5,Good
+Gaudenzia Thompson Street Apts,1815 W THOMPSON ST,Complete,6,-75.165991,39.974272,2.5,MAP Holistic CDC (Mankind Against Poverty),0.31,2,The Spring Gardens,0.682,2,Sanctuary Farm Phila,0.547,6.5,Good
+Tasker Village Energy,1508 S 16TH ST,Complete,28,-75.171948,39.931547,2.5,Bethany Indonesian Church,0.342,2,South Philadelphia Older Adult Center Garden,0.606,2,Point Breeze Community Market,0.567,6.5,Good
+Cecil B. Moore Homeownership Zone I-A,1510 N 18TH ST,Complete,30,-75.165069,39.977168,2.5,North Philadelphia SDA Church,0.256,1.5,The Spring Gardens,0.885,2.5,Sanctuary Farm Phila,0.466,6.5,Good
+Apartments at New Market West,13 N SALFORD ST,Complete,41,-75.239955,39.961384,3,Reconciliation And Liberty Bible Church,0.159,2.5,Cobbs Creek Park Community Garden,0.452,1,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),1.039,6.5,Good
+Calcutta House EXP,1221-33 N 19TH ST,Complete,9,-75.175255,39.93648,2.5,Mount Hebron Baptist Church,0.462,1.5,Capitolo Community Garden,0.831,2.5,Point Breeze Community Market,0.32,6.5,Good
+Melville Way,4520-22 WALNUT ST,Complete,8,-75.212654,39.955361,2,UC Hospitality Coalition (Woodland),0.591,2.5,Garden Court Community Garden,0.474,2,Clark Park Farmers Market,0.608,6.5,Good
+Reinhard Street,1220 S 48TH ST,Complete,15,-75.213516,39.943633,2.5,Catholic Housing and Community Services Star Harbor Senior Center Satellite,0.316,2,Kingsessing Community Garden,0.534,2,Clark Park Farmers Market,0.505,6.5,Good
+Mansion Court II,2000 N 32ND ST,Complete,19,-75.185925,39.987055,2.5,Gideon School,0.48,1.5,The Neighbors Garden at Hatfield House,0.995,2.5,Strawberry Mansion Farmers Market,0.419,6.5,Good
+Hawthorne IV,1236 CATHARINE ST,Complete,4,-75.163587,39.940365,2.5,Tindley Temple Soup Kitchen,0.331,2.5,Waverly Street Community Garden,0.489,1.5,East Passyunk Farmers' Market,0.77,6.5,Good
+North Central Neighborhood III,2000 N 11TH ST,Complete,50,-75.151831,39.983334,3,Norris Homes/North Central Community Center,0.052,1,FNC Community Learning Farm at 8th and Poplar,1.206,2.5,Sanctuary Farm at Health Connections,0.31,6.5,Good
+Sheridan Street,1807 N SHERIDAN ST,Complete,13,-75.146029,39.979128,2,Norris Homes/North Central Community Center,0.511,1.5,FNC Community Learning Farm at 8th and Poplar,0.952,3,Sanctuary Farm at Health Connections,0.245,6.5,Good
+Pradera II,1800 N 7TH ST,Complete,53,-75.146795,39.978976,2,Norris Homes/North Central Community Center,0.51,1.5,FNC Community Learning Farm at 8th and Poplar,0.866,3,Sanctuary Farm at Health Connections,0.244,6.5,Good
+Vernon House,3226 CLIFFORD ST,Under Construction,68,-75.187793,39.983104,2.5,Gideon School,0.425,2,The Neighbors Garden at Hatfield House,0.68,2,Strawberry Mansion Farmers Market,0.698,6.5,Good
+Old First House,322-40 RACE ST,Complete,34,-75.145799,39.954123,3,"Old First United Church of Christ_x000D_
+",0.09,1,Sartain Community Garden,1.185,2.5,Christ Church Farmer's Market,0.356,6.5,Good
+Reba Brown Senior 202,1450 S 50TH ST,Complete,75,-75.213625,39.938873,2.5,Grace Tabernacle Christian Church,0.294,2.5,Kingsessing Community Garden,0.431,1.5,Sankofa Farmstand,0.813,6.5,Good
+Blumberg Apartments I,1500-02 N 24TH ST,Complete,57,-75.184476,39.933818,3,New Bethany Baptist Church,0.142,1,Schuylkill River Park Community Garden,1.172,2.5,Point Breeze Community Market,0.299,6.5,Good
+Homestart Strawberry Mansion,1968 N NAPA ST,Complete,1,-75.184861,39.986741,2.5,Gideon School,0.425,1.5,Brewerytown Garden,0.963,2.5,Strawberry Mansion Farmers Market,0.474,6.5,Good
+Shelia Brown Women's Center,2000 ELLSWORTH ST,Complete,9,-75.176695,39.93792,2.5,Philadelphia Housing Authority Cassie L. Holly Apts. Satelite,0.432,1.5,Capitolo Community Garden,0.916,2.5,Point Breeze Community Market,0.285,6.5,Good
+Diamond Street Initiative,3113 DIAMOND ST,Complete,49,-75.184234,39.988522,2.5,Gideon School,0.451,1.5,Brewerytown Garden,0.935,2.5,Strawberry Mansion Farmers Market,0.344,6.5,Good
+Ingersoll Commons Homeownership,1301 N SMEDLEY ST,Complete,10,-75.162839,39.974229,3,MAP Holistic CDC (Mankind Against Poverty),0.199,1.5,The Spring Gardens,0.767,2,Sanctuary Farm Phila,0.688,6.5,Good
+16th & Federal/Commons at Point Breeze,1136 S 16TH ST,Complete,53,-75.170517,39.937222,2.5,South Philadelphia WIC Office,0.273,2,Capitolo Community Garden,0.62,2,Point Breeze Community Market,0.637,6.5,Good
+Artist Village,700 S 17TH ST,Complete,36,-75.170907,39.942943,2.5,Tindley Temple Soup Kitchen,0.312,2,Waverly Street Community Garden,0.726,2,Rittenhouse Farmers' Market,0.609,6.5,Good
+Homeownership Rehabilitation Program - Mole Street,1141 S MOLE ST,Complete,4,-75.169886,39.936943,2.5,South Philadelphia WIC Office,0.252,2,Capitolo Community Garden,0.599,2,Point Breeze Community Market,0.659,6.5,Good
+16th & Federal/Commons at Point Breeze II,1133 S 16TH ST,Complete,18,-75.170104,39.937168,2.5,South Philadelphia WIC Office,0.266,2,Capitolo Community Garden,0.612,2,Point Breeze Community Market,0.646,6.5,Good
+Lillia Crippen Townhomes Preservation,100 W OXFORD ST,Complete,46,-75.135227,39.97379,3,Lutheran Settlement House,0.182,1,FNC Community Learning Farm at 8th and Poplar,1.204,2,Northern Liberties Farmers Market ,0.6,6,Good
+Good Shepherd Senior,6439 LANSDOWNE AVENUE,Complete,55,-75.248902,39.975262,2.5,Good Samaritan Baptist Church,0.325,1,Cobbs Creek Park Community Garden,1.038,2.5,Overbrook Community Market ,0.463,6,Good
+Center Park III Elderly,10102 JAMISON AVE,Complete,39,-75.022372,40.100954,3,Mitzvah Food Program Northeast,0.072,0,,,3,KleinLife Farmers' Market,0.131,6,Good
+Mamie Nichols Townhomes Phase II AKA Arlene Thorpe Townhomes,1210 S 27TH ST,Complete,27,-75.188749,39.938471,3,Church of Pentecost,0.235,1,Schuylkill River Park Community Garden,1.053,2,Point Breeze Community Market,0.698,6,Good
+Point Breeze Homeownership,1215 S 27TH ST,Complete,5,-75.188393,39.93836,3,Church of Pentecost,0.235,1,Schuylkill River Park Community Garden,1.053,2,Point Breeze Community Market,0.698,6,Good
+Mansion Court I,1800 NORTH 32ND STREET,Complete,31,-75.186351,39.98413,2.5,Gideon School,0.363,1.5,The Neighbors Garden at Hatfield House,0.812,2,Strawberry Mansion Farmers Market,0.602,6,Good
+North Phila Complete Blocks - Wilt,1905 W WILT ST,Complete,2,-75.165584,39.982088,2.5,Project HOME,0.391,1,Brewerytown Garden,1.134,2.5,Sanctuary Farm Phila,0.462,6,Good
+North Phila Complete Blocks - Gratz,1815 N GRATZ ST,Complete,1,-75.164432,39.98175,2.5,King Older Adult Center,0.433,1,Brewerytown Garden,1.169,2.5,Sanctuary Farm Phila,0.497,6,Good
+Fitzwater Homes,1827 FITZWATER ST,Complete,22,-75.173145,39.942914,2.5,Tindley Temple Soup Kitchen,0.392,1.5,Schuylkill River Park Community Garden,0.855,2,Rittenhouse Farmers' Market,0.584,6,Good
+Cecil B. Moore III-2,1704 N 19TH ST,Complete,54,-75.166012,39.980161,2.5,King Older Adult Center,0.414,1,Brewerytown Garden,1.149,2.5,Sanctuary Farm Phila,0.478,6,Good
+Strawberry Mansion I,1900 N 31ST ST,Complete,25,-75.184634,39.985377,2.5,Gideon School,0.36,1.5,Brewerytown Garden,0.852,2,Strawberry Mansion Farmers Market,0.564,6,Good
+Ruby Housing,129 N RUBY ST,Complete,11,-75.227391,39.962665,2.5,Firehouse Active Adult Center,0.333,1,Garden Court Community Garden,1.118,2.5,52nd & Haverford Farmers Market,0.322,6,Good
+St. Columba's,4133 CHESTNUT ST,Complete,40,-75.20582,39.956347,2.5,UC Hospitality Coalition (Woodland),0.38,1.5,Garden Court Community Garden,0.917,2,Clark Park Farmers Market,0.6,6,Good
+Greenwich Whitman II,141 DURFOR ST,Complete,13,-75.1501,39.918981,2.5,South Philly Community Fridge at Mifflin Sq. Park,0.353,1.5,Growing Homes Community Garden,0.783,2,Dickinson Square Farmers' Market ,0.7,6,Good
+Queen and McKeen,424 W QUEEN LN,Complete,4,-75.175693,40.024725,2,Holsey Temple CME Church,0.696,2,Fernhill Food Forest,0.691,2,Grumblethorpe Youth Farmstand,0.623,6,Good
+Francis House,4460 FAIRMOUNT AVE,Complete,60,-75.212642,39.963964,2.5,West Philadelphia SDA,0.298,1.5,Garden Court Community Garden,0.992,2,52nd & Haverford Farmers Market,0.725,6,Good
+CBM Homeownership Zone Historic,1737 N 18TH ST,Complete,6,-75.163778,39.980711,2.5,North Philadelphia SDA Church,0.381,1,Brewerytown Garden,1.17,2.5,Sanctuary Farm Phila,0.498,6,Good
+North Phila Complete Blocks - Morse,1900 MORSE ST,Complete,1,-75.165589,39.981582,2.5,King Older Adult Center,0.377,1,Brewerytown Garden,1.112,2.5,Sanctuary Farm Phila,0.441,6,Good
+Genesis II,1239 SPRING GARDEN ST,Complete,20,-75.158945,39.962563,3,Chosen 300,0.177,2,The Spring Gardens,0.622,1,Fairmount Farmers' Market,1.017,6,Good
+Preston Street,418-28 N PRESTON ST,Complete,7,-75.145117,39.962305,2,Northern Living Center,0.502,2,FNC Community Learning Farm at 8th and Poplar,0.65,2,Northern Liberties Farmers Market ,0.61,6,Good
+LCIP III,5526 VINE ST,Complete,14,-75.231191,39.96526,2.5,Firehouse Active Adult Center,0.295,1,Cobbs Creek Park Community Garden,1.247,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.288,6,Good
+Booth Manor II 202,5522 ARCH ST,Complete,50,-75.230482,39.961912,2.5,Firehouse Active Adult Center,0.446,1,Cobbs Creek Park Community Garden,1.079,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.439,6,Good
+Cecil B. Moore Village,1614 N 16TH ST,Complete,34,-75.161597,39.978195,3,North Philadelphia SDA Church,0.014,1,The Spring Gardens,1.034,2,Sanctuary Farm Phila,0.561,6,Good
+Cecil B. Moore Homeownership Zone I-A-1,1623-31 N 18TH ST,Complete,3,-75.174911,39.930608,2.5,Bethany Indonesian Church,0.377,1.5,South Philadelphia Older Adult Center Garden,0.813,2,Point Breeze Community Market,0.514,6,Good
+Dewey Street,119 N RUBY ST,Complete,10,-75.227436,39.962448,2.5,Firehouse Active Adult Center,0.333,1,Garden Court Community Garden,1.118,2.5,52nd & Haverford Farmers Market,0.322,6,Good
+Elders Place 202,76-88 COLLOM ST,Complete,40,-75.164748,40.031922,2.5,Holsey Temple CME Church,0.481,1,Fernhill Food Forest,1.14,2.5,Germantown Kitchen Garden,0.266,6,Good
+The Queen Senior Apartments,328 W QUEEN LN,Under Construction,49,-75.174208,40.025662,2,Holsey Temple CME Church,0.697,2,Fernhill Food Forest,0.626,2,Grumblethorpe Youth Farmstand,0.624,6,Good
+Avondale Housing,110 N PEACH ST,Complete,18,-75.22726,39.962236,2.5,Firehouse Active Adult Center,0.358,1,Garden Court Community Garden,1.092,2.5,52nd & Haverford Farmers Market,0.296,6,Good
+Chatham AKA The Willows at Walnut Hill,242-52 S 49TH ST,Complete,40,-75.219764,39.96284,2,Firehouse Active Adult Center,0.518,1.5,Garden Court Community Garden,0.825,2.5,52nd & Haverford Farmers Market,0.372,6,Good
+Dignity Project III,235 HANSBERRY ST,Complete,8,-75.172345,40.026562,2,Holsey Temple CME Church,0.583,2,Fernhill Food Forest,0.666,2,Grumblethorpe Youth Farmstand,0.509,6,Good
+Cecil Housing,106 N DEWEY ST,Complete,11,-75.243239,39.964125,2.5,Reconciliation And Liberty Bible Church,0.291,2.5,Cobbs Creek Park Community Garden,0.342,1,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),1.057,6,Good
+Simpson Senior Services,1001-11 GREEN ST,Complete,40,-75.154362,39.962649,3,Chosen 300,0.228,2,FNC Community Learning Farm at 8th and Poplar,0.664,1,Northern Liberties Farmers Market ,1.218,6,Good
+Gaudenzia West Mill Place,916 -36 NORTH 51ST STREET,Complete,30,-75.222903,39.968644,3,The Charles Foundation,0.204,0.5,Garden Court Community Garden,1.326,2.5,52nd & Haverford Farmers Market,0.381,6,Good
+CBM Homeownership Zone II,1400 N BOUVIER ST,Complete,43,-75.164549,39.975632,2.5,North Philadelphia SDA Church,0.338,1.5,The Spring Gardens,0.798,2,Sanctuary Farm Phila,0.512,6,Good
+Yorktown Arms,1400 N 13TH ST,Complete,56,-75.156794,39.97494,2.5,MAP Holistic CDC (Mankind Against Poverty),0.4,2,FNC Community Learning Farm at 8th and Poplar,0.74,1.5,Sanctuary Farm at Health Connections,0.79,6,Good
+Norris Square Senior,2121-37 N HOWARD ST,Complete,35,-75.148963,39.921436,2,South Philly Community Fridge at Mifflin Sq. Park,0.528,2,Growing Homes Community Garden,0.635,2,Dickinson Square Farmers' Market ,0.549,6,Good
+APM Preservation,2011-25 N MARSHALL ST,Complete,80,-75.145183,39.981896,2.5,Norris Homes/North Central Community Center,0.352,1,FNC Community Learning Farm at 8th and Poplar,1.118,2.5,Sanctuary Farm at Health Connections,0.277,6,Good
+Preservation Projects,2825-29 DIAMOND ST,Complete,112,-75.179724,39.987739,2.5,Gideon School,0.36,1.5,Brewerytown Garden,0.839,2,Strawberry Mansion Farmers Market,0.542,6,Good
+Sears Street II,2731-33 SEARS ST,Complete,1,-75.189479,39.936553,3,Church of Pentecost,0.155,1,Schuylkill River Park Community Garden,1.192,2,Point Breeze Community Market,0.568,6,Good
+31st & Berks,3104 W BERKS ST,Complete,10,-75.184728,39.985107,2.5,Gideon School,0.36,1.5,Brewerytown Garden,0.852,2,Strawberry Mansion Farmers Market,0.564,6,Good
+Francisville East,1500 POPLAR ST,Complete,44,-75.161886,39.970291,2.5,MAP Holistic CDC (Mankind Against Poverty),0.325,2,The Spring Gardens,0.578,1.5,Fairmount Farmers' Market,0.804,6,Good
+Ralston/Mercy Douglas House,3817-39 MARKET ST,Complete,55,-75.198307,39.956722,3,UC Hospitality Coalition (Philadelphia Episcopal Cathedral),0.076,0.5,Garden Court Community Garden,1.398,2.5,University Square,0.428,6,Good
+YouthBuild,349 HANSBERRY ST,Complete,4,-75.173813,40.024815,2,Holsey Temple CME Church,0.723,2,Fernhill Food Forest,0.546,2,Grumblethorpe Youth Farmstand,0.649,6,Good
+Kings Village,2737 TITAN ST,Complete,21,-75.189849,39.937528,3,Church of Pentecost,0.237,1,Schuylkill River Park Community Garden,1.177,2,Point Breeze Community Market,0.7,6,Good
+Jardines de Borinquen II,2016 N MARSHALL ST,Complete,45,-75.145204,39.981982,2.5,Norris Homes/North Central Community Center,0.352,1,FNC Community Learning Farm at 8th and Poplar,1.118,2.5,Sanctuary Farm at Health Connections,0.277,6,Good
+Jardines del Borinquen I,2024 N 6TH ST,Complete,45,-75.144357,39.982242,2.5,Norris Homes/North Central Community Center,0.447,1,FNC Community Learning Farm at 8th and Poplar,1.212,2.5,Sanctuary Farm at Health Connections,0.373,6,Good
+Bartram Village I,2639 S 58TH ST,Under Construction,52,-75.21764,39.928202,2.5,Ezekiel Baptist Church,0.341,1,Kingsessing Community Garden,1.19,2.5,Sankofa Farmstand,0.34,6,Good
+Casa Nueva Vida,2629-41 N 6TH ST,Complete,12,-75.15806,39.91607,2.5,South Philly Community Fridge at Mifflin Sq. Park,0.278,2,Growing Homes Community Garden,0.655,1.5,Dickinson Square Farmers' Market ,0.968,6,Good
+Rowan Homes I,2721-33 DIAMOND ST,Complete,8,-75.178393,39.987561,2.5,Gideon School,0.343,1.5,Brewerytown Garden,0.822,2,Strawberry Mansion Farmers Market,0.606,6,Good
+Partnership CDC,14 S 51ST ST,Complete,8,-75.223251,39.959307,2,Firehouse Active Adult Center,0.688,2,Garden Court Community Garden,0.705,2,Black Farmers Market,0.525,6,Good
+Walnut Park Plaza,6232-50 WALNUT ST,Complete,227,-75.246044,39.959499,2.5,Reconciliation And Liberty Bible Church,0.426,2.5,Cobbs Creek Park Community Garden,0.29,0.5,Black Farmers Market,1.38,5.5,Good
+South 55th Street,800 S 55TH ST,Complete,20,-75.233726,39.94794,2.5,New Testament Church of God,0.467,1,Kingsessing Community Garden,1.018,2,Black Farmers Market,0.722,5.5,Good
+Spencer's Place,716-30 N 36TH ST,Complete,22,-75.195066,39.966614,3,Mighty Writers West,0.079,1,The Neighbors Garden at Hatfield House,1.247,1.5,University Square,0.938,5.5,Good
+School of Nursing,115 E HUNTINGDON ST,Complete,50,-75.132137,39.989436,3,"Temple University Hospital, Episcopal Campus",0.224,0,,,2.5,4th & Lehigh Farmers Market,0.427,5.5,Good
+Holmes School,5429-55 CHESTNUT ST,Complete,42,-75.229916,39.959088,2,Firehouse Active Adult Center,0.546,1.5,Garden Court Community Garden,0.99,2,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.539,5.5,Good
+Liberty 52: Stephen F. Gold Community Residences,5208-28 POPLAR ST,Complete,24,-75.225768,39.970465,3,The Charles Foundation,0.091,0,,,2.5,52nd & Haverford Farmers Market,0.389,5.5,Good
+Lower Germantown II,50 COLLOM ST,Complete,34,-75.165054,40.03139,2,Holsey Temple CME Church,0.541,1,Fernhill Food Forest,1.154,2.5,Germantown Kitchen Garden,0.326,5.5,Good
+HELP Philadelphia I & II Refinancing,4910 WYALUSING STREET,Complete,90,-75.220129,39.970055,3,Philadelphia Masjid,0.195,0.5,Garden Court Community Garden,1.328,2,52nd & Haverford Farmers Market,0.598,5.5,Good
+Ann Thomas Presbyterian,2000 SOUTH 58TH STREET,Complete,75,-75.226707,39.933195,2.5,Ezekiel Baptist Church,0.409,1.5,Kingsessing Community Garden,0.849,1.5,Sankofa Farmstand,0.821,5.5,Good
+Homestart WP EZ,1223 N 53RD ST,Complete,3,-75.227118,39.971948,3,Bible Way Baptist Church,0.218,0,,,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.477,5.5,Good
+Yorktown Arms,1300 W JEFFERSON ST,Complete,56,-75.157426,39.975712,2.5,North Philadelphia SDA Church,0.325,1.5,FNC Community Learning Farm at 8th and Poplar,0.842,1.5,Sanctuary Farm at Health Connections,0.798,5.5,Good
+Westpark Redevelopment Townhomes Phase 1,4401 HOLDEN ST,Under Construction,41,-75.210788,39.959691,2.5,West Philadelphia SDA,0.379,1.5,Garden Court Community Garden,0.786,1.5,Clark Park Farmers Market,0.872,5.5,Good
+Belfield Avenue Townhomes,1735 BELFIELD AVE,Complete,3,-75.152487,40.029405,2.5,The Word in Action International Ministries,0.446,1.5,Hunting Park Community Garden,0.974,1.5,Germantown Kitchen Garden,0.968,5.5,Good
+HELP I II,4807 WESTMINSTER AVE,Complete,90,-75.218923,39.969482,3,Philadelphia Masjid,0.162,0.5,Garden Court Community Garden,1.34,2,52nd & Haverford Farmers Market,0.723,5.5,Good
+New Covenant Senior,7406 GERMANTOWN AVE,Complete,56,-75.196008,40.062832,2,The H.O.P.E. Food Pantry,0.574,1,Pleasant Playground Community Garden,1.048,2.5,Chestnut Hill Farmers' Market,0.385,5.5,Good
+Doctor's Row II,1613 CHRISTIAN ST,Complete,10,-75.170012,39.940682,2.5,Tindley Temple Soup Kitchen,0.338,1.5,Waverly Street Community Garden,0.842,1.5,Point Breeze Community Market,0.818,5.5,Good
+Liberty53 - Estelle B Richman Place,607 N 53RD ST,Under Construction,31,-75.226666,39.969737,3,The Charles Foundation,0.139,0,,,2.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.321,5.5,Good
+Taino Gardens,604 W DAUPHIN ST,Complete,42,-75.143835,39.98607,2.5,Urban Creators,0.416,0.5,FNC Community Learning Farm at 8th and Poplar,1.426,2.5,Youth-Led Raices Farmstand,0.482,5.5,Good
+Village Square on Haverford - Phase II,3600 HAVERFORD AVENUE,Complete,32,-75.194552,39.963731,3,Interfaith Food Cupboard,0.188,0.5,The Neighbors Garden at Hatfield House,1.4,2,University Square,0.743,5.5,Good
+Mantua 811,3613-19 FAIRMOUNT AVE,Complete,10,-75.195152,39.966024,3,Mighty Writers West,0.045,1,The Neighbors Garden at Hatfield House,1.244,1.5,University Square,0.902,5.5,Good
+Chinatown North II,314 N 9TH ST,Complete,10,-75.153957,39.957837,3,On Lok House Satellite,0.232,1.5,FNC Community Learning Farm at 8th and Poplar,0.836,1,Christ Church Farmer's Market,1.115,5.5,Good
+Diamond III,3200 DIAMOND ST,Complete,35,-75.185596,39.988243,2,Gideon School,0.53,1,Brewerytown Garden,1.014,2.5,Strawberry Mansion Farmers Market,0.318,5.5,Good
+WPRE II,3605 BRANDYWINE ST,Complete,40,-75.194811,39.963287,3,Interfaith Food Cupboard,0.151,0.5,The Neighbors Garden at Hatfield House,1.437,2,University Square,0.706,5.5,Good
+Karen Donnally/Iris Nydia Brown Townhomes Preservation,312 W DIAMOND STREET,Complete,44,-75.140099,39.982406,2.5,CHCS Norris Square Center,0.342,0.5,FNC Community Learning Farm at 8th and Poplar,1.46,2.5,Youth-Led Raices Farmstand,0.272,5.5,Good
+Rafael Porrata-Doria Place,2739 N 5TH ST,Complete,30,-75.139744,39.993228,2.5,Lehigh WIC Office,0.297,0,,,3,4th & Lehigh Farmers Market,0.217,5.5,Good
+Winghocking Street,2006 W WINGOHOCKING ST,Complete,2,-75.158407,40.022612,2.5,The Word in Action International Ministries,0.445,1.5,Fernhill Food Forest,0.864,1.5,Grumblethorpe Youth Farmstand,0.876,5.5,Good
+Greenway Presbyterian 202,2050 S 58TH ST,Complete,68,-75.226901,39.934014,2.5,Ezekiel Baptist Church,0.446,1.5,Kingsessing Community Garden,0.839,1.5,Sankofa Farmstand,0.858,5.5,Good
+Carroll Park,1313 N 59TH ST,Complete,7,-75.237607,39.972169,2.5,Episcopal Community Services,0.256,1,Cobbs Creek Park Community Garden,1.081,2,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.719,5.5,Good
+Mary Field Senior Apartments,2100 SOUTH 58TH STREET,Complete,168,-75.226101,39.933056,2.5,Ezekiel Baptist Church,0.423,1.5,Kingsessing Community Garden,0.862,1.5,Sankofa Farmstand,0.834,5.5,Good
+210 Clapier,210 W CLAPIER ST,Complete,1,-75.167078,40.024664,1.5,Holsey Temple CME Church,0.757,2,Fernhill Food Forest,0.559,2,Grumblethorpe Youth Farmstand,0.678,5.5,Good
+Homeownership Rehabilitation Project - Southwest Renewal,2043 S CECIL ST,Complete,9,-75.22577,39.934365,2.5,Ezekiel Baptist Church,0.399,1.5,Kingsessing Community Garden,0.805,1.5,Sankofa Farmstand,0.808,5.5,Good
+Lehigh Park II Repairs,2622 N LAWRENCE ST,Complete,28,-75.139685,39.991203,2.5,Lehigh WIC Office,0.266,0,,,3,4th & Lehigh Farmers Market,0.03,5.5,Good
+Lehigh Park I Repairs,2600-20 N LAWRENCE ST,Complete,48,-75.155644,39.916161,2.5,South Philly Community Fridge at Mifflin Sq. Park,0.397,1.5,Growing Homes Community Garden,0.813,1.5,Dickinson Square Farmers' Market ,0.894,5.5,Good
+Hunter School,2315 N HOWARD ST,Complete,50,-75.132885,39.985323,3,CHCS Norris Square Center,0.198,0,,,2.5,Youth-Led Raices Farmstand,0.295,5.5,Good
+Hogar de Esperanza Phase III,2203 GERMANTOWN AVENUE,Complete,20,-75.144042,39.985776,2.5,Urban Creators,0.424,0.5,FNC Community Learning Farm at 8th and Poplar,1.416,2.5,Youth-Led Raices Farmstand,0.492,5.5,Good
+Los Balcones,100 WEST NORRIS STREET,Complete,21,-75.133259,39.980145,3,CHCS Norris Square Center,0.216,0,,,2.5,Youth-Led Raices Farmstand,0.379,5.5,Good
+Bethesda Transitional,816 S 20TH ST,Complete,16,-75.175969,39.941532,2,Tindley Temple Soup Kitchen,0.594,1.5,Schuylkill River Park Community Garden,0.826,2,Point Breeze Community Market,0.555,5.5,Good
+La Torre,104 W NORRIS ST,Complete,10,-75.133894,39.980082,3,CHCS Norris Square Center,0.196,0,,,2.5,Youth-Led Raices Farmstand,0.359,5.5,Good
+Woodcrest,104 S CECIL ST,Complete,11,-75.236702,39.959556,2.5,Reconciliation And Liberty Bible Church,0.473,1.5,Cobbs Creek Park Community Garden,0.765,1.5,Black Farmers Market,0.904,5.5,Good
+Homestart Southwest Center City,1010 S 18TH ST,Complete,1,-75.173211,39.939587,2,Tindley Temple Soup Kitchen,0.521,1.5,Capitolo Community Garden,0.932,2,Point Breeze Community Market,0.627,5.5,Good
+Tillmon Villanueva Townhomes,701-17 W SOMERSET ST,Complete,77,-75.143499,39.994171,2.5,Saint John Memorial Baptist Church,0.315,0,,,2.5,4th & Lehigh Farmers Market,0.412,5,Good
+Cottage/New Courtland 811,6950 GERMANTOWN AVE,Complete,78,-75.188719,40.055348,2,The H.O.P.E. Food Pantry,0.57,2,Pleasant Playground Community Garden,0.659,1,Chestnut Hill Farmers' Market,1.032,5,Good
+Mt. Vernon Manor II,3202 MANTUA AVE,Complete,46,-75.189896,39.96603,3,Mighty Writers West,0.245,1,The Neighbors Garden at Hatfield House,1.189,1,University Square,1.111,5,Good
+My Place in Germantown,209 E PRICE ST,Complete,12,-75.173601,40.039005,3,Face to Face Germantown,0.026,0,,,2,Germantown Kitchen Garden,0.676,5,Good
+New Kensington,2045 E DAUPHIN ST,Complete,8,-75.130373,39.982617,2.5,CHCS Norris Square Center,0.266,0,,,2.5,Youth-Led Raices Farmstand,0.366,5,Good
+Susquehanna Housing,2601 WEST FLETCHER STREET,Complete,80,-75.175501,39.989622,2,Women Walking in Victory,0.507,1,Brewerytown Garden,1.043,2,Strawberry Mansion Farmers Market,0.691,5,Good
+Rites of Passage,2625 KENSINGTON AVE,Complete,10,-75.126544,39.989038,3,Community Center at Visitation,0.066,0,,,2,4th & Lehigh Farmers Market,0.728,5,Good
+Homestart WP EZ,1320 FARSON ST,Complete,3,-75.223596,39.973777,3,Bible Way Baptist Church,0.122,0,,,2,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.745,5,Good
+North Phila Community Help,2705 N 11TH ST,Complete,43,-75.14894,39.993761,3,Saint John Memorial Baptist Church,0.239,0,,,2,4th & Lehigh Farmers Market,0.635,5,Good
+APM Townhouses,2147 N 7TH ST,Complete,8,-75.145241,39.984404,2,Norris Homes/North Central Community Center,0.517,0.5,FNC Community Learning Farm at 8th and Poplar,1.302,2.5,Sanctuary Farm at Health Connections,0.458,5,Good
+Projecto Escalera,2353 GERMANTOWN AVE,Complete,27,-75.145867,39.988002,2.5,Urban Creators,0.303,0.5,FNC Community Learning Farm at 8th and Poplar,1.442,2,Sanctuary Farm at Health Connections,0.594,5,Good
+Center in the Park,24-50 W RITTENHOUSE ST,Complete,70,-75.176733,40.037493,3,"BenePhilly Center at Impact Services at PA CareerLink, Northwest",0.094,0,,,2,Grumblethorpe Youth Farmstand,0.632,5,Good
+Coral Street Art House,2446-68 CORAL STREET,Under Construction,27,-75.128461,39.983892,2.5,St. Francis Inn,0.26,0,,,2.5,Youth-Led Raices Farmstand,0.496,5,Good
+Imani Homes III,301 N 41ST ST,Complete,5,-75.204942,39.959069,2.5,Chosen 300 West,0.449,1,Garden Court Community Garden,1.052,1.5,Clark Park Farmers Market,0.823,5,Good
+New Kensington,2020 E SERGEANT ST,Complete,10,-75.126465,39.985578,3,The Table - Calvary Vision,0.246,0,,,2,Youth-Led Raices Farmstand,0.665,5,Good
+Project Restoration,2850 N 9TH ST,Complete,14,-75.145889,39.995702,3,Saint John Memorial Baptist Church,0.046,0,,,2,4th & Lehigh Farmers Market,0.68,5,Good
+Imani Homes II,310 N 41ST ST,Complete,7,-75.205534,39.959275,2.5,Chosen 300 West,0.477,1,Garden Court Community Garden,1.023,1.5,Clark Park Farmers Market,0.795,5,Good
+Maple Village,22 WEST RITTENHOUSE STREET,Under Construction,70,-75.176457,40.037765,3,"BenePhilly Center at Impact Services at PA CareerLink, Northwest",0.058,0,,,2,Grumblethorpe Youth Farmstand,0.595,5,Good
+Nicetown Court II,4413-21 GERMANTOWN AVE,Complete,50,-75.158114,40.021693,2,The Word in Action International Ministries,0.529,1.5,Fernhill Food Forest,0.852,1.5,Grumblethorpe Youth Farmstand,0.948,5,Good
+Angela Court II,4400-58 FAIRMOUNT AVE,Complete,121,-75.210846,39.964513,2.5,West Philadelphia SDA,0.294,1,Garden Court Community Garden,1.063,1.5,52nd & Haverford Farmers Market,0.796,5,Good
+Nicetown Court,4330-50 GERMANTOWN AVE,Complete,37,-75.156386,40.019944,2,The Word in Action International Ministries,0.53,2,Hunting Park Community Garden,0.717,1,Grumblethorpe Youth Farmstand,1.092,5,Good
+Sojourner House,6027-33 GERMANTOWN AVE,Complete,15,-75.178308,40.040099,3,Germantown Community Fridge,0.055,0.5,Pleasant Playground Community Garden,1.456,1.5,Grumblethorpe Youth Farmstand,0.793,5,Good
+Adolfina Villanueva II,719-35 WEST SOMERSET STREET,Complete,30,-75.144145,39.994258,2.5,Saint John Memorial Baptist Church,0.28,0,,,2.5,4th & Lehigh Farmers Market,0.446,5,Good
+Rights of Passage II,5603 GERMANTOWN AVE,Complete,12,-75.173668,40.035357,3,Germantown Community Fridge,0.223,0,,,2,Germantown Kitchen Garden,0.521,5,Good
+Neuman North Senior,1601 E PALMER ST,Complete,67,-75.132147,39.975428,2.5,Lutheran Settlement House,0.323,0.5,FNC Community Learning Farm at 8th and Poplar,1.449,2,Youth-Led Raices Farmstand,0.749,5,Good
+Germantown YMCA,5722 GREENE ST,Complete,128,-75.177822,40.034027,3,Germantown WIC Office,0.166,0,,,2,Grumblethorpe Youth Farmstand,0.643,5,Good
+Meadow House - Frankford Senior,4649 PAUL ST,Under Construction,50,-75.083624,40.015288,3,Peter Brassi NE Senior Center,0.227,0,,,2,Frankford Transportation Center Farmers Market,0.704,5,Good
+Jameson Court,4435 PARRISH STREET,Complete,72,-75.21226,39.967829,2.5,Philadelphia Masjid,0.391,1,Garden Court Community Garden,1.244,1.5,52nd & Haverford Farmers Market,0.811,5,Good
+"Anthony Wayne Senior Housing - Phase I, II, III",1701 S 28TH ST,Complete,130,-75.190452,39.931658,3,Young Chances Foundation,0.159,0,,,2,Point Breeze Community Market,0.745,5,Good
+Lindley Court,1300 W LINDLEY AVE,Complete,48,-75.144738,40.029742,3,Our Lady of Hope,0.243,1.5,Hunting Park Community Garden,0.972,0.5,Germantown Kitchen Garden,1.341,5,Good
+Imani Homes,4115 BARING ST,Complete,24,-75.206208,39.960241,2.5,Chosen 300 West,0.399,1,Garden Court Community Garden,1.102,1.5,Clark Park Farmers Market,0.876,5,Good
+Homestart Southwest Center City,1914 CARPENTER ST,Complete,3,-75.175262,39.940013,2,Tindley Temple Soup Kitchen,0.605,1,Schuylkill River Park Community Garden,1.005,2,Point Breeze Community Market,0.543,5,Good
+Pensdale/4200 Mitchell 202,4200 MITCHELL ST,Complete,143,-75.212995,40.027963,3,The Center at Journey’s Way,0.1,0,,,2,Pretzel Park Farmers Market,0.538,5,Good
+Overington Transitional House,1528 OVERINGTON ST,Complete,13,-75.085516,40.016,3,Peter Brassi NE Senior Center,0.171,0,,,2,Frankford Transportation Center Farmers Market,0.722,5,Good
+Norris Street,1600 PAGE ST,Complete,7,-75.160339,39.983986,2.5,North Philadelphia SDA Church,0.453,0.5,The Spring Gardens,1.473,2,Sanctuary Farm at Health Connections,0.737,5,Good
+4008 Haverford,4008 HAVERFORD AVE,Complete,1,-75.202702,39.962646,3,Chosen 300 West,0.039,0.5,Garden Court Community Garden,1.406,1.5,University Square,0.93,5,Good
+Families First,3939-49 WARREN ST,Complete,0,-75.201494,39.961838,3,Chosen 300 West,0.124,0.5,Garden Court Community Garden,1.401,1.5,University Square,0.864,5,Good
+Jannie's Place,3902-14 SPRING GARDEN ST,Complete,29,-75.20017,39.96196,3,Chosen 300 West,0.133,0.5,Garden Court Community Garden,1.461,1.5,University Square,0.792,5,Good
+Imani Homes IV,3934-36 LANCASTER AVE,Complete,8,-75.201473,39.962653,3,Chosen 300 West,0.019,0.5,Garden Court Community Garden,1.454,1.5,University Square,0.901,5,Good
+Gloria's Place/3902 Spring Garden,3902 SPRING GARDEN ST,Complete,11,-75.200774,39.961718,3,Chosen 300 West,0.122,0.5,Garden Court Community Garden,1.419,1.5,University Square,0.837,5,Good
+Imani Homes Preservation,3857 WARREN ST,Under Construction,55,-75.199648,39.961075,3,Chosen 300 West,0.196,0.5,Garden Court Community Garden,1.464,1.5,University Square,0.769,5,Good
+Homestart Mantua,3816-18 FAIRMOUNT AVE,Complete,1,-75.198245,39.965655,3,Mighty Writers West,0.199,0.5,The Neighbors Garden at Hatfield House,1.398,1.5,University Square,0.969,5,Good
+Rudolphy/Mercy Douglass 811,3827-33 POWELTON AVE,Complete,17,-75.197932,39.959522,2.5,Interfaith Food Cupboard,0.283,0.5,Garden Court Community Garden,1.459,2,University Square,0.607,5,Good
+Inglis Gardens Germantown 811,332-34 E WALNUT LN,Complete,15,-75.174293,40.045217,3,Men Who Care of Germantown Inc,0.162,1,Pleasant Playground Community Garden,1.19,1,Germantown Kitchen Garden,1.128,5,Good
+Melon SIL 811,3616-28 MELON ST,Complete,10,-75.195102,39.965432,3,Mighty Writers West,0.075,0.5,The Neighbors Garden at Hatfield House,1.282,1.5,University Square,0.862,5,Good
+Homestart WP EZ,4527 PARRISH ST,Complete,2,-75.213495,39.9679,2.5,Philadelphia Masjid,0.318,1,Garden Court Community Garden,1.186,1.5,52nd & Haverford Farmers Market,0.753,5,Good
+North Park Avenue,4225-27 N PARK AVE,Under Construction,45,-75.148293,40.017209,2,The Word in Action International Ministries,0.62,3,Hunting Park Community Garden,0.243,0,,,5,Good
+Eli Apartments,1418 CONLYN ST,Complete,88,-75.145248,40.042204,3,Olney/Logan WIC Office,0.105,1,Fisher Park Roots Garden,1.093,0.5,Germantown Kitchen Garden,1.488,4.5,Fair
+Cloisters III,3900 HAVERFORD AVE,Under Construction,50,-75.199882,39.962938,3,Chosen 300 West,0.123,0,,,1.5,University Square,0.855,4.5,Fair
+3909 Haverford Rehab,3909 HAVERFORD AVE,Complete,6,-75.200122,39.96332,3,Chosen 300 West,0.156,0,,,1.5,University Square,0.942,4.5,Fair
+Rowan House,325 N 39TH ST,Complete,26,-75.200388,39.959931,2.5,Chosen 300 West,0.37,0.5,Garden Court Community Garden,1.354,1.5,University Square,0.802,4.5,Fair
+Mascher Street Townhouses,2742-70 MASCHER ST,Complete,12,-75.132769,39.991848,2.5,Lehigh WIC Office,0.324,0,,,2,4th & Lehigh Farmers Market,0.549,4.5,Fair
+Model Cities #6,2200 N 13TH ST,Complete,70,-75.154076,39.986068,2.5,Urban Creators,0.311,0,,,2,Sanctuary Farm at Health Connections,0.642,4.5,Fair
+St. John Neumann's Place,2600 MOORE ST,Complete,75,-75.189472,39.930319,3,Young Chances Foundation,0.224,0,,,1.5,Point Breeze Community Market,0.778,4.5,Fair
+81 E High,81 HIGH ST,Complete,15,-75.176165,40.041462,3,Germantown Community Fridge,0.161,0,,,1.5,Germantown Kitchen Garden,0.812,4.5,Fair
+Village Homes,1012 W HUNTINGDON ST,Complete,6,-75.149213,39.991464,2.5,Urban Creators,0.307,0,,,2,4th & Lehigh Farmers Market,0.583,4.5,Fair
+Grays Ferry,3100-50 WHARTON STREET,Complete,70,-75.195213,39.937695,2.5,Church of Pentecost,0.471,0.5,Schuylkill River Park Community Garden,1.448,1.5,Point Breeze Community Market,0.935,4.5,Fair
+Be A Gem Crossing,3226 GERMANTOWN AVE,Complete,41,-75.148848,40.002081,2.5,Saint John Memorial Baptist Church,0.414,1,Hunting Park Community Garden,1.179,1,4th & Lehigh Farmers Market,1.141,4.5,Fair
+Casa Indiana,2935-65 N 2ND ST,Complete,50,-75.134091,39.995024,2.5,Lehigh WIC Office,0.283,0,,,2,4th & Lehigh Farmers Market,0.512,4.5,Fair
+Evelyn Saunders Townhouses,3009 N PERCY ST,Complete,49,-75.145429,39.997949,3,Saint John Memorial Baptist Church,0.168,0,,,1.5,4th & Lehigh Farmers Market,0.772,4.5,Fair
+Evelyn Saunders Townhouses II,3029 N PERCY ST,Complete,31,-75.145357,39.998278,2.5,Saint John Memorial Baptist Church,0.271,0.5,Hunting Park Community Garden,1.485,1.5,4th & Lehigh Farmers Market,0.876,4.5,Fair
+Gratz Commons,2122 N GRATZ ST,Complete,39,-75.163846,39.986316,2.5,Bethel Presbyterian Church,0.396,0.5,Brewerytown Garden,1.429,1.5,Sanctuary Farm Phila,0.769,4.5,Fair
+Orinoka Mills,2721-77 RUTH ST,Complete,51,-75.123472,39.990123,3,Community Center at Visitation,0.173,0,,,1.5,4th & Lehigh Farmers Market,0.907,4.5,Fair
+Ruth Street Civic House,2721-69 RUTH ST,Complete,44,-75.123472,39.990123,3,Community Center at Visitation,0.173,0,,,1.5,4th & Lehigh Farmers Market,0.907,4.5,Fair
+Belmont Affordable V,871 N 42ND ST,Complete,24,-75.207783,39.969298,3,Second Antioch Baptist Church,0.23,0.5,The Neighbors Garden at Hatfield House,1.494,1,52nd & Haverford Farmers Market,1.085,4.5,Fair
+South Lehigh Homestart,2302 W CUMBERLAND ST,Complete,10,-75.170079,39.992558,2.5,Dobbins Technical High School,0.351,0.5,Brewerytown Garden,1.364,1.5,Sanctuary Farm Phila,0.984,4.5,Fair
+Belmont Affordable,905 BELMONT AVE,Complete,17,-75.211261,39.96989,2.5,Philadelphia Masjid,0.33,0.5,Garden Court Community Garden,1.418,1.5,52nd & Haverford Farmers Market,0.979,4.5,Fair
+Belmont Affordable III,920 BELMONT AVE,Complete,46,-75.212086,39.970481,2.5,Philadelphia Masjid,0.277,0.5,Garden Court Community Garden,1.428,1.5,52nd & Haverford Farmers Market,0.989,4.5,Fair
+Montana Street,251 MONTANA ST,Complete,11,-75.1805,40.053926,1.5,The H.O.P.E. Food Pantry,0.812,2.5,Pleasant Playground Community Garden,0.314,0.5,Chestnut Hill Farmers' Market,1.407,4.5,Fair
+Visitation Transitional Housing,2622-38 KENSINGTON AVE,Complete,18,-75.12657,39.989273,3,Community Center at Visitation,0.03,0,,,1.5,4th & Lehigh Farmers Market,0.752,4.5,Fair
+Belmont Affordable IV,4221 PARRISH ST,Complete,11,-75.208689,39.968032,2.5,Second Antioch Baptist Church,0.347,0.5,Garden Court Community Garden,1.408,1.5,52nd & Haverford Farmers Market,0.975,4.5,Fair
+Belmont Affordable II,4203 W GIRARD AVE,Complete,20,-75.210075,39.973777,3,West Philadelphia Senior Community Center,0.248,1,The Neighbors Garden at Hatfield House,1.239,0.5,52nd & Haverford Farmers Market,1.3,4.5,Fair
+Imani Homes V,3844 HAVERFORD AVE,Complete,11,-75.198903,39.963042,3,Chosen 300 West,0.189,0,,,1.5,University Square,0.862,4.5,Fair
+Fattah Homes I,4017 LANCASTER AVE,Complete,6,-75.202767,39.963699,3,Chosen 300 West,0.107,0.5,Garden Court Community Garden,1.46,1,University Square,1.026,4.5,Fair
+Bigham Place,4226-32 POWELTON AVE,Complete,11,-75.20702,39.958733,2,UC Hospitality Coalition (Woodland),0.57,1,Garden Court Community Garden,1.062,1.5,Clark Park Farmers Market,0.781,4.5,Fair
+Wilmont Meadows,1815 WILMOT ST,Complete,15,-75.07947,40.013836,3,Northeast Baptist Church Oasis Food Ministry,0.213,0,,,1.5,Frankford Transportation Center Farmers Market,0.818,4.5,Fair
+Devon Manor,1415 CLEARVIEW ST,Complete,14,-75.145095,40.040804,3,Olney/Logan WIC Office,0.092,1,Fisher Park Roots Garden,1.171,0.5,Germantown Kitchen Garden,1.5,4.5,Fair
+Cloisters III,3812-14 HAVERFORD AVE,Complete,50,-75.197733,39.963381,3,Chosen 300 West,0.242,0,,,1.5,University Square,0.81,4.5,Fair
+Fattah Homes II,3811-13 HAVERFORD AVE,Complete,6,-75.197695,39.963413,3,Chosen 300 West,0.242,0,,,1.5,University Square,0.81,4.5,Fair
+Lawrence Court,3300 N 4TH ST,Complete,50,-75.136712,40.001274,3,Mann Older Adult Center,0.193,0,,,1.5,4th & Lehigh Farmers Market,0.832,4.5,Fair
+Mt. Airy Corridor Mixed Use,6513 GERMANTOWN AVE,Complete,3,-75.183454,40.048838,2.5,Brand New Life Christian Center,0.4,1.5,Pleasant Playground Community Garden,0.864,0.5,Grumblethorpe Youth Farmstand,1.459,4.5,Fair
+Blakestone Housing,6657 BLAKEMORE ST,Complete,19,-75.177894,40.059767,1.5,The H.O.P.E. Food Pantry,0.868,2.5,Pleasant Playground Community Garden,0.299,0.5,Chestnut Hill Farmers' Market,1.434,4.5,Fair
+Homestart Soutwest,5936 CHESTER AVE,Complete,4,-75.23071,39.933943,2,New Disciples Ministries,0.512,1.5,Kingsessing Community Garden,0.913,1,Sankofa Farmstand,1.167,4.5,Fair
+HELP Philadelphia,6100 EASTWICK AVE,Complete,63,-75.220629,39.922259,3,Resurrection Community Church,0.221,0,,,1.5,Sankofa Farmstand,0.858,4.5,Fair
+Sarah Allen III Senior,4035 PARRISH ST,Complete,123,-75.204928,39.968711,3,Second Antioch Baptist Church,0.22,0.5,The Neighbors Garden at Hatfield House,1.362,1,52nd & Haverford Farmers Market,1.229,4.5,Fair
+Ogden Gardens,4033 OGDEN ST,Complete,4,-75.204874,39.96955,3,Second Antioch Baptist Church,0.142,0.5,The Neighbors Garden at Hatfield House,1.342,1,52nd & Haverford Farmers Market,1.235,4.5,Fair
+Home in Belmont,4020 PARRISH ST,Complete,8,-75.204821,39.968106,3,Second Antioch Baptist Church,0.231,0.5,The Neighbors Garden at Hatfield House,1.409,1,52nd & Haverford Farmers Market,1.181,4.5,Fair
+Mantua Presbyterian 202,600-18 N 34TH ST,Complete,65,-75.191631,39.964083,2.5,Mighty Writers West,0.272,0.5,The Neighbors Garden at Hatfield House,1.252,1.5,University Square,0.882,4.5,Fair
+Parkside I,1710 N LINDENWOOD ST,Complete,19,-75.227167,39.980509,3,Parkside Association of Philadelphia,0.249,0,,,1,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),1.157,4,Fair
+Philadelphia Preservation - Mission First,4113-43 WARREN STREET,Under Construction,83,-75.206313,39.964825,2.5,Chosen 300 West,0.307,0.5,Garden Court Community Garden,1.297,1,52nd & Haverford Farmers Market,1.03,4,Fair
+Horizon House II,6015 LIMEKILN PIKE,Complete,18,-75.147201,40.045432,2.5,Olney/Logan WIC Office,0.402,1,Fisher Park Roots Garden,1.1,0.5,Germantown Kitchen Garden,1.492,4,Fair
+Frankford House,1611 RUAN ST,Complete,42,-75.088364,40.010095,3,Padre Pio Prayer Center Food Distribution (St. Joachim),0.203,0,,,1,Frankford Transportation Center Farmers Market,1.172,4,Fair
+Centennial Village,1702 N 52ND ST,Complete,52,-75.225139,39.981048,3,Parkside Association of Philadelphia,0.1,0,,,1,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),1.216,4,Fair
+Villas del Caribe,161 WEST ALLEGHENY AVENUE,Complete,81,-75.132026,39.998926,2.5,Mann Older Adult Center,0.365,0,,,1.5,4th & Lehigh Farmers Market,0.838,4,Fair
+Inglis Apartments at Elmwood ,6200 EASTWICK AVE,Complete,40,-75.221432,39.921072,2.5,Resurrection Community Church,0.328,0,,,1.5,Sankofa Farmstand,0.963,4,Fair
+Reunification House,190 W ALLEGHENY AVE,Complete,2,-75.13311,39.998808,2.5,Mann Older Adult Center,0.308,0,,,1.5,4th & Lehigh Farmers Market,0.781,4,Fair
+Brentwood,4120 PARKSIDE AVE,Complete,44,-75.207578,39.97517,3,West Philadelphia Senior Community Center,0.212,1,The Neighbors Garden at Hatfield House,1.148,0,,,4,Fair
+Dauphin House,1412-26 W DAUPHIN ST,Complete,52,-75.156791,39.987993,2.5,Urban Creators,0.37,0,,,1.5,Sanctuary Farm at Health Connections,0.887,4,Fair
+Parkside Neighborhood Preservation,4104 PARKSIDE AVE,Complete,82,-75.20726,39.975054,3,West Philadelphia Senior Community Center,0.219,1,The Neighbors Garden at Hatfield House,1.103,0,,,4,Fair
+Susquehanna Village Preservation,1421 W SUSQUEHANNA,Complete,53,-75.157465,39.98669,2.5,Urban Creators,0.459,0,,,1.5,Sanctuary Farm at Health Connections,0.799,4,Fair
+Lehigh Mixed Use,1927 W LEHIGH AVE,Complete,5,-75.163676,39.995379,3,Dobbins Technical High School,0.24,0,,,1,Sanctuary Farm Phila,1.237,4,Fair
+Roberto Clemente Homes,3921-61 N 5TH ST,Complete,38,-75.136094,40.010826,2.5,McClure Elementary School,0.455,1,Hunting Park Community Garden,1.028,0.5,4th & Lehigh Farmers Market,1.402,4,Fair
+Bernice Elza Homes,3803 BRANDYWINE ST,Complete,6,-75.197658,39.962955,2.5,Chosen 300 West,0.265,0,,,1.5,University Square,0.773,4,Fair
+Union Hill Homes,3901 ASPEN ST,Complete,51,-75.200556,39.966754,2.5,Chosen 300 West,0.356,0.5,The Neighbors Garden at Hatfield House,1.496,1,University Square,1.101,4,Fair
+Nicole Hines Townhouses,417 E WISTER ST,Complete,35,-75.160457,40.035117,1.5,Holsey Temple CME Church,0.765,0.5,Fernhill Food Forest,1.399,2,Germantown Kitchen Garden,0.55,4,Fair
+Homestart Lower Tioga,1235 W WESTMORELAND ST,Complete,4,-75.149883,40.003047,2.5,Gather the People House of Prayer,0.395,1,Hunting Park Community Garden,1.158,0.5,4th & Lehigh Farmers Market,1.28,4,Fair
+Roxborough Redevelopment,376-86 DUPONT ST,Complete,6,-75.220256,40.032269,2,The Center at Journey’s Way,0.527,0,,,2,Pretzel Park Farmers Market,0.672,4,Fair
+Belmont Homes,4012 RENO ST,Complete,10,-75.203896,39.967784,2.5,Second Antioch Baptist Church,0.28,0.5,The Neighbors Garden at Hatfield House,1.421,1,52nd & Haverford Farmers Market,1.177,4,Fair
+Triangle Senior Housing Phase 1,3701-33 BROWN ST,Complete,40,-75.196833,39.968115,2.5,Mighty Writers West,0.259,0.5,The Neighbors Garden at Hatfield House,1.309,1,University Square,1.088,4,Fair
+James Widener Ray/2101 Venango,2101 W VENANGO ST,Complete,53,-75.163064,40.00954,3,Mercy Neighborhood Ministry,0.206,1,Hunting Park Community Garden,1.23,0,,,4,Fair
+Mt. Vernon Manor,3228-30 WALLACE ST,Complete,75,-75.189362,39.9655,2.5,Mighty Writers West,0.314,0.5,The Neighbors Garden at Hatfield House,1.258,1,University Square,1.109,4,Fair
+Caribe Towers,3231-65 NORTH 2ND STREET,Under Construction,57,-75.133116,39.999575,2.5,Mann Older Adult Center,0.346,0,,,1.5,4th & Lehigh Farmers Market,0.836,4,Fair
+Forgotten Blocks III,2722 N GARNET ST,Complete,5,-75.16307,39.995681,3,Dobbins Technical High School,0.222,0,,,1,Sanctuary Farm Phila,1.219,4,Fair
+Henry Avenue Senior Campus I,3232 HENRY AVE,Complete,49,-75.182274,40.009802,1.5,East Falls Community Fridge,0.997,1,Fernhill Food Forest,1.231,1.5,East Falls Farmers' Market,0.919,4,Fair
+Life Center,3240 N HANCOCK ST,Complete,0,-75.132206,40.000156,2.5,Mann Older Adult Center,0.383,0,,,1.5,4th & Lehigh Farmers Market,0.873,4,Fair
+Park Avenue,2240 N PARK AVE,Complete,4,-75.154965,39.987132,2.5,Urban Creators,0.259,0,,,1.5,Sanctuary Farm at Health Connections,0.792,4,Fair
+Veteren Shared Housing,118-60 E INDIANA AVE,Complete,25,-75.130089,39.995483,2.5,"Temple University Hospital, Episcopal Campus",0.472,0,,,1.5,4th & Lehigh Farmers Market,0.825,4,Fair
+Hestonville,5400 LANSDOWNE AVE,Complete,30,-75.229968,39.97687,2.5,Overbrook WIC Office,0.383,0,,,1.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),0.755,4,Fair
+Villas Del Caribe,167 WEST ALLEGHENY AVENUE,Complete,81,-75.131541,39.999724,2.5,Mann Older Adult Center,0.417,0,,,1.5,4th & Lehigh Farmers Market,0.906,4,Fair
+Abigail Pankey Apartments,777-87 N 38TH ST,Complete,32,-75.198162,39.967547,2.5,Mighty Writers West,0.317,0.5,The Neighbors Garden at Hatfield House,1.414,1,University Square,1.088,4,Fair
+Neumann North Preservation,1741 FRANKFORD AVENUE,Under Construction,67,-75.131974,39.975773,2.5,Lutheran Settlement House,0.375,0,,,1.5,Youth-Led Raices Farmstand,0.758,4,Fair
+Hancock Manor,164-174 W ALLEGHENY AVE,Under Construction,45,-75.132197,39.998918,2.5,Mann Older Adult Center,0.365,0,,,1.5,4th & Lehigh Farmers Market,0.838,4,Fair
+Hancock Manor,164-76 W ALLEGHENY AVE,Complete,45,-75.132197,39.998918,2.5,Mann Older Adult Center,0.365,0,,,1.5,4th & Lehigh Farmers Market,0.838,4,Fair
+Casa Caribe 202,173-83 WEST ALLEGHENY AVENUE,Complete,52,-75.132564,39.998996,2.5,Mann Older Adult Center,0.337,0,,,1.5,4th & Lehigh Farmers Market,0.81,4,Fair
+Elkins Residence,5401-65 OLD YORK RD,Complete,73,-75.144769,40.035214,2.5,Our Lady of Hope,0.251,1,Fisher Park Roots Garden,1.242,0.5,Germantown Kitchen Garden,1.486,4,Fair
+Sarah Allen V/Belmont Gardens,4100 BROWN ST,Complete,67,-75.205907,39.967022,2.5,Second Antioch Baptist Church,0.263,0.5,Garden Court Community Garden,1.491,1,52nd & Haverford Farmers Market,1.069,4,Fair
+Interim House West,4108-20 PARKSIDE AVE,Complete,20,-75.20695,39.975368,3,West Philadelphia Senior Community Center,0.219,1,The Neighbors Garden at Hatfield House,1.103,0,,,4,Fair
+King Highway II,2004 E STELLA ST,Complete,31,-75.115982,39.991649,3,BenePhilly Center at Impact Services,0.242,0,,,0.5,Youth-Led Raices Farmstand,1.282,3.5,Fair
+Maguire-Willard,1920 E ORLEANS ST,Complete,42,-75.117205,39.9916,2.5,BenePhilly Center at Impact Services,0.349,0,,,1,Youth-Led Raices Farmstand,1.235,3.5,Fair
+4800 Disston Street,4800 DISSTON ST,Under Construction,5,-75.041618,40.025202,1.5,Catholic Social Services Northeast Family Service Center,0.806,2,Tacony Community Garden at Disston Park,0.55,0,,,3.5,Fair
+Dignity Enhanced Service Project,1646 W NEDRO AVE,Complete,9,-75.148613,40.043295,2.5,Champlost Homes Tenant Council,0.311,0.5,Fisher Park Roots Garden,1.266,0.5,Germantown Kitchen Garden,1.303,3.5,Fair
+Shelton Court,6433 N BROAD ST,Complete,20,-75.141667,40.050926,2,St. Benedict Food Bank,0.555,1.5,Fisher Park Roots Garden,0.929,0,,,3.5,Fair
+Compassion Senior Living,6223-27 CATHERINE ST,Complete,38,-75.247952,39.951569,1.5,Reconciliation And Liberty Bible Church,0.963,1.5,Cobbs Creek Park Community Garden,0.871,0.5,Black Farmers Market,1.428,3.5,Fair
+Tioga Gardens,1801 W TIOGA ST,Complete,33,-75.158617,40.007384,2.5,Mercy Neighborhood Ministry,0.292,1,Hunting Park Community Garden,1.206,0,,,3.5,Fair
+Merrick Hall Renovations,5301 RIDGE AVE,Complete,12,-75.208584,40.021059,1.5,The Center at Journey’s Way,0.774,0,,,2,Pencoyd Farmers Market ,0.651,3.5,Fair
+PCCO II,2506 W SILVER ST,Complete,9,-75.172508,39.997002,2.5,Dobbins Technical High School,0.369,0,,,1,Strawberry Mansion Farmers Market,1.179,3.5,Fair
+Hedgerow Apartments,3125-47 N 16TH ST,Under Construction,80,-75.156295,40.001254,3,Gather the People House of Prayer,0.175,0,,,0.5,4th & Lehigh Farmers Market,1.496,3.5,Fair
+Allegheny West Preservation,2804 N BAMBREY,Complete,32,-75.173154,39.998171,2.5,Dobbins Technical High School,0.476,0,,,1,Strawberry Mansion Farmers Market,1.122,3.5,Fair
+Gaudenzia - Venango Place,2100 W VENANGO ST,Complete,21,-75.163317,40.008955,3,Mercy Neighborhood Ministry,0.153,0.5,Hunting Park Community Garden,1.284,0,,,3.5,Fair
+Reed Street SRO,3225 REED ST,Complete,67,-75.197433,39.937011,2,Young Chances Foundation,0.595,0,,,1.5,Point Breeze Community Market,0.953,3.5,Fair
+Nugent Senior Center,221 W JOHNSON ST,Complete,57,-75.186246,40.042528,2.5,Brand New Life Christian Center,0.426,0.5,Pleasant Playground Community Garden,1.337,0.5,Grumblethorpe Youth Farmstand,1.437,3.5,Fair
+Presser Senior,101 W JOHNSON ST,Complete,45,-75.185743,40.042876,2.5,Brand New Life Christian Center,0.439,0.5,Pleasant Playground Community Garden,1.349,0.5,Grumblethorpe Youth Farmstand,1.463,3.5,Fair
+Phillip Murray House II 202,6300 OLD YORK RD,Complete,70,-75.145371,40.049689,2,St. Benedict Food Bank,0.556,1.5,Fisher Park Roots Garden,0.998,0,,,3.5,Fair
+New Courtland at St. Bartholomew Phase II,5364 JACKSON ST,Complete,48,-75.067,40.017501,2,Centre d'Adoration Chretienne,0.627,0,,,1.5,Frankford Transportation Center Farmers Market,0.813,3.5,Fair
+Thompson/Walnut Initiative,4230 W THOMPSON ST,Complete,35,-75.211354,39.974589,2.5,West Philadelphia Senior Community Center,0.42,0.5,The Neighbors Garden at Hatfield House,1.374,0.5,52nd & Haverford Farmers Market,1.4,3.5,Fair
+Marlton Residences,1721-31 MARLTON AVE,Complete,25,-75.208217,39.975211,2.5,West Philadelphia Senior Community Center,0.262,1,The Neighbors Garden at Hatfield House,1.198,0,,,3.5,Fair
+Gaudenzia Tioga Arms,1828-1830 W TIOGA ST,Under Construction,22,-75.158756,40.007055,2.5,Mercy Neighborhood Ministry,0.324,1,Hunting Park Community Garden,1.239,0,,,3.5,Fair
+Tioga Family,1822-26 W TIOGA ST,Complete,24,-75.158665,40.007044,2.5,Mercy Neighborhood Ministry,0.324,1,Hunting Park Community Garden,1.239,0,,,3.5,Fair
+Homestart Susquehanna,1626 FRENCH ST,Complete,7,-75.160373,39.986201,2,Bethel Presbyterian Church,0.53,0,,,1.5,Sanctuary Farm at Health Connections,0.871,3.5,Fair
+Mill Redevelopment @ A & Indiana,124 E INDIANA AVE,Complete,48,-75.128821,39.994819,2,"Temple University Hospital, Episcopal Campus",0.559,0,,,1.5,4th & Lehigh Farmers Market,0.962,3.5,Fair
+Brantwood II,4144 PARKSIDE AVE,Complete,16,-75.208937,39.975842,2.5,West Philadelphia Senior Community Center,0.316,1,The Neighbors Garden at Hatfield House,1.201,0,,,3.5,Fair
+Susquehanna Square,1601 DIAMOND ST,Complete,37,-75.159883,39.985401,2,North Philadelphia SDA Church,0.555,0,,,1.5,Sanctuary Farm at Health Connections,0.821,3.5,Fair
+Center City Affordability Initiative,1237 BELMONT AVE,Complete,29,-75.212168,39.974544,2.5,West Philadelphia Senior Community Center,0.455,0.5,The Neighbors Garden at Hatfield House,1.409,0.5,52nd & Haverford Farmers Market,1.276,3.5,Fair
+4200 Stiles,4211 W STILES ST,Complete,2,-75.210528,39.974458,2.5,West Philadelphia Senior Community Center,0.294,0.5,The Neighbors Garden at Hatfield House,1.272,0.5,52nd & Haverford Farmers Market,1.347,3.5,Fair
+Gaudenzia WINNER,1832 W TIOGA ST,Under Construction,13,-75.159711,40.00693,3,Mercy Neighborhood Ministry,0.24,0.5,Hunting Park Community Garden,1.288,0,,,3.5,Fair
+Nativity BVM Senior,3255 BELGRADE ST,Complete,63,-75.102608,39.986917,3,Nativity Satellite Program,0,0,,,0,,,3,Fair
+Forgotten Blocks II,1923 W SOMERSET ST,Complete,15,-75.163026,39.996847,2.5,Dobbins Technical High School,0.272,0,,,0.5,Sanctuary Farm Phila,1.326,3,Fair
+GALA-Golden Age Living Accom,6845-49 LIMEKILN PIKE,Complete,50,-75.15257,40.05814,3,New Era Baptist Church,0.235,0,,,0,,,3,Fair
+Allegheny West Plaza,2221 W VENANGO ST,Complete,45,-75.165534,40.00986,2.5,Mercy Neighborhood Ministry,0.35,0.5,Hunting Park Community Garden,1.284,0,,,3,Fair
+St. Raymond's House,1330 VERNON RD,Complete,28,-75.166865,40.071834,1.5,Upper Room Missionary Baptist Church,0.917,0,,,1.5,Uptown Farmer's Market on Wadsworth Avenue ,0.955,3,Fair
+Station House,2601 N BROAD ST,Complete,108,-75.154362,39.992203,2,Urban Creators,0.548,0,,,1,4th & Lehigh Farmers Market,1.043,3,Fair
+Apartments at Cliveden,315 W JOHNSON ST,Complete,62,-75.188453,40.040615,2,Brand New Life Christian Center,0.573,0.5,Pleasant Playground Community Garden,1.484,0.5,Grumblethorpe Youth Farmstand,1.351,3,Fair
+Liberty at Welsh Road,2628 WELSH RD,Complete,2,-75.03193,40.070087,3,"The Reid Foundation, Inc. at Always Independent",0.178,0,,,0,,,3,Fair
+The Lofts at 2601,2601 N BROAD ST,Complete,56,-75.154362,39.992203,2,Urban Creators,0.548,0,,,1,4th & Lehigh Farmers Market,1.043,3,Fair
+Ogontz III,7100 OGONTZ AVE,Complete,15,-75.152173,40.06228,3,West Oak Lane Senior Center,0.166,0,,,0,,,3,Fair
+Wynne Senior Residences,2001-11 N 54TH ST,Complete,50,-75.232134,39.986678,3,St. Barbara,0.098,0,,,0,,,3,Fair
+Port Richmond,2423-29 E CAMBRIA ST,Complete,32,-75.17099,39.999255,2.5,Allegheny West Foundation,0.379,0,,,0.5,Strawberry Mansion Farmers Market,1.256,3,Fair
+Parkside II,5130 VIOLA ST,Complete,7,-75.222802,39.980257,2.5,Parkside Association of Philadelphia,0.284,0,,,0.5,Firehouse Senior Center Pop-Ups (only on Aug 14 and Nov 5 &19),1.383,3,Fair
+St. Joseph's,1527 W ALLEGHENY AVE,Complete,62,-75.155518,40.00246,2.5,Gather the People House of Prayer,0.286,0.5,Hunting Park Community Garden,1.403,0,,,3,Fair
+NewCourtland at Allegheny II,1900 W ALLEGHENY AVE,Complete,105,-75.160674,40.002064,3,Philadelphia Senior Center - Allegheny Branch,0,0,,,0,,,3,Fair
+Paschall Senior 202,6901 WOODLAND AVE,Complete,63,-75.240799,39.921814,2.5,Southwest Senior Center,0.471,0,,,0,,,2.5,Poor
+111 W Erie,111 W ERIE AVE,Complete,0,-75.128296,40.007905,2.5,St. Christopher's Hospital WIC Office,0.337,0,,,0,,,2.5,Poor
+2201 E Tioga Apartments (Sepviva Lofts),2201 E TIOGA ST,Under Construction,51,-75.100839,39.994891,2.5,Mission of St. Joan of Arc Food Cupboard,0.267,0,,,0,,,2.5,Poor
+Fairthorne Senior,6761-63 RIDGE AVE,Complete,40,-75.225453,40.041594,1,The Center at Journey’s Way,1.239,0,,,1.5,Henry Got Crops Farm Market,0.825,2.5,Poor
+Inglis Gardens Washington 811,1200-06 E WASHINGTON LN,Complete,15,-75.16746,40.056302,1.5,New Era Baptist Church,0.951,1,Pleasant Playground Community Garden,1.006,0,,,2.5,Poor
+Wynnefield Place,1717-25 N 54TH ST,Complete,48,-75.231065,39.983572,2.5,St. Barbara,0.316,0,,,0,,,2.5,Poor
+Edgewood Manor II,1508 W ALLEGHENY AVE,Complete,56,-75.155229,40.001399,2.5,Gather the People House of Prayer,0.254,0,,,0,,,2.5,Poor
+Twin Homes at Frankford Creek,1501 E CAYUGA ST,Complete,50,-75.097177,40.013521,2,Padre Pio Prayer Center Food Distribution (St. Joachim),0.59,0,,,0.5,Frankford Transportation Center Farmers Market,1.487,2.5,Poor
+Janney Apartments,2855 JANNEY STREET,Complete,47,-75.115676,39.986128,2,BenePhilly Center at Impact Services,0.744,0,,,0.5,Youth-Led Raices Farmstand,1.386,2.5,Poor
+Loney Rhawn,1710 RHAWN ST,Under Construction,16,-75.061079,40.064567,2,Northeast WIC Office,0.641,0,,,0,,,2,Poor
+Project Advantage,4700 E ROOSEVELT BLVD,Complete,12,-75.098363,40.027972,1.5,Iglesia Christiana Avivamiento,0.781,0,,,0.5,Frankford Transportation Center Farmers Market,1.45,2,Poor
+Project Hope,6818 N 17TH ST,Complete,2,-75.145806,40.057836,2,New Era Baptist Church,0.559,0,,,0,,,2,Poor
+Evangelical Senior Housing d/b/a Manor Glen Apts,8401 E ROOSEVELT BLVD,Under Construction,50,-75.040595,40.062306,2,Northeast Older Adult Center,0.736,0,,,0,,,2,Poor
+Manor Glen,8401 ROOSEVELT BOULEVARD,Complete,50,-75.040595,40.062306,2,Northeast Older Adult Center,0.736,0,,,0,,,2,Poor
+HELP Philadelphia IV,7100 GROVERS AVE,Complete,60,-75.23561,39.911573,2,Southwest Senior Center,0.561,0,,,0,,,2,Poor
+Carl Mackley Apartments,1401 E BRISTOL ST,Complete,184,-75.098581,40.012723,2,Padre Pio Prayer Center Food Distribution (St. Joachim),0.725,0,,,0,,,2,Poor
+Liberty Community Integration Program,7600 E ROOSEVELT BLVD,Complete,5,-75.052424,40.050816,2,Northeast WIC Office,0.748,0,,,0,,,2,Poor
+Northeast Affordability Initiative,7900 CASTOR AVE,Complete,38,-75.058653,40.059631,2,Northeast WIC Office,0.523,0,,,0,,,2,Poor
+Inglis Gardens at Eastwick II,3026-70 MARIO LANZA BLVD,Complete,18,-75.242638,39.901827,2,St Paul A.M.E. Church,0.709,0,,,0,,,2,Poor
+Father Augustus Tolton Place,2604 ISLAND AVE,Complete,45,-75.242959,39.910116,1.5,Southwest Senior Center,0.84,0,,,0,,,1.5,Poor
+2640 East Lehigh Ave,2640 E LEHIGH AVE,Under Construction,36,-75.114793,39.977999,1.5,Nativity Satellite Program,0.937,0,,,0,,,1.5,Poor
+Bernice Arms/6000 Baltimore,6000 BALTIMORE AVE,Complete,46,-75.243654,39.944382,1,New Testament Church of God,1.058,0,,,0.5,Black Farmers Market,1.313,1.5,Poor
+Monument Village*,4101 EDGLEY AVE,Complete,60,-75.217973,39.994283,1,St. Barbara,1.048,0,,,0,,,1,Poor
+Pilgrim Gardens Senior,7023 RISING SUN AVE,Complete,62,-75.087448,40.057359,1,Feast for Friends,1.152,0,,,0,,,1,Poor
+St. Katharine Drexel Place,11051 ACADEMY ROAD,Under Construction,48,-74.989215,40.084479,0,,,1,Poquessing Creek Park Garden,1.205,0,,,1,Poor
+Kearsley,2100 N 49TH ST,Complete,60,-75.223062,39.993245,1,St. Barbara,1.014,0,,,0,,,1,Poor
+Keystone Housing,8765 STENTON AVENUE,Complete,19,-75.205659,40.082584,0,,,0,,,0.5,Chestnut Hill Farmers' Market,1.422,0.5,Poor
+Inglis Apartments at Belmont I & II,2560 BELMONT AVENUE,Complete,80,-75.219301,39.998873,0.5,St. Barbara,1.399,0,,,0,,,0.5,Poor
+Ephraim Goldstein Apartments,12003 BUSTLETON AVE,Complete,63,-75.015216,40.121565,0.5,George Washington High School Pantry,1.433,0,,,0,,,0.5,Poor
+Inglis Accessible Housing Initiative,11901-13 ACADEMY RD,Complete,11,-74.982899,40.091205,0,,,0.5,Poquessing Creek Park Garden,1.288,0,,,0.5,Poor
+Wingate Street,4424-30 WINGATE STREET,Complete,33,-75.018423,40.041409,0.5,Catholic Social Services Northeast Family Service Center,1.326,0,,,0,,,0.5,Poor
+Chandler Supported Living 811,419 CHANDLER ST,Complete,6,-75.085725,40.073665,0,,,0,,,0,,,0,Very Poor
+Ivy Residence II,4050 CONSHOHOCKEN AVE,Complete,53,-75.212785,40.001217,0,,,0,,,0,,,0,Very Poor
+Fresh Start,4300 MONUMENT RD,Complete,11,-75.21491,39.998044,0,,,0,,,0,,,0,Very Poor
+FOP Senior,730 BYBERRY ROAD,Under Construction,106,-75.01355,40.121713,0,,,0,,,0,,,0,Very Poor
